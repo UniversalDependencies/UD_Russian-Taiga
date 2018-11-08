@@ -10,19 +10,19 @@ The plain text data were tokenized, lemmatized and parsed using UDpipe ([http://
 
 # Registers
 
-* blogs and social media: 87%  
-main source: vk.com   
+* blogs and social media: 87%
+main source: vk.com
 
-* naïve poetry: 11%   
+* naïve poetry: 11% 
 main source: stihi.ru
 
-* news: 1% 
+* news: 1%
 The tiny news collection was used to train annotators and check annotation consistency with other UD treeabnks.
 
 
 # Data split
 
-v.2.2: 
+v.2.2:
 
 * training: 50% (10K tokens, 880 sentences)
 
@@ -30,19 +30,25 @@ v.2.2:
 
 # Acknowledgments
 
-We are grateful to all the contributors to the original open Russian data collections and especially to Tatiana Shavrina (Taiga) and Alena Fenogenova (MorphoRuEval-2017 data set). 
+We are grateful to all the contributors to the original open Russian data collections and especially to Tatiana Shavrina (Taiga) and Alena Fenogenova (MorphoRuEval-2017 data set).
 
 ## References
 
-* Lyashevskaya, Olga, Kira Droganova, Daniel Zeman, Maria Alexeeva, Tatiana Gavrilova, Nina Mustafina, and Elena Shakurova. 
+* Lyashevskaya, Olga, Kira Droganova, Daniel Zeman, Maria Alexeeva, Tatiana Gavrilova, Nina Mustafina, and Elena Shakurova.
 (2016). Universal Dependencies for Russian: a New Syntactic Dependencies Tagset. In: Series: Linguistics, WP BRP 44/LNG/2016. Moscow.
 
-* Sorokin, Andrey, Tatiana Shavrina, Olga Lyashevskaya, Victor Bocharov, Svetlana Alexeeva, Kira Droganova, Alena Fenogenova, and Dmitry Granovsky. (2017). MorphoRuEval-2017: an Evaluation Track for the Automatic Morphological Analysis Methods for Russian. In Computational Linguistics and Intellectual Technologies, Proceedings of Dialog 2017, Moscow. No 16 (23). Vol. 1, 297-313. 
+* Sorokin, Andrey, Tatiana Shavrina, Olga Lyashevskaya, Victor Bocharov, Svetlana Alexeeva, Kira Droganova, Alena Fenogenova, and Dmitry Granovsky. (2017). MorphoRuEval-2017: an Evaluation Track for the Automatic Morphological Analysis Methods for Russian. In Computational Linguistics and Intellectual Technologies, Proceedings of Dialog 2017, Moscow. No 16 (23). Vol. 1, 297-313.
 
 * Lyashevskaya, Olga, Victor Bocharov, Alexey Sorokin, Tatiana Shavrina, Dmitry Granovsky, and Svetlana Alexeeva. (2017).
-Text collections for evaluation of Russian morphological taggers. Jazykovedny Casopis, 68 (2), 2017: 258-267. 
+Text collections for evaluation of Russian morphological taggers. Jazykovedny Casopis, 68 (2), 2017: 258-267.
 
 * Shavrina, Tatiana, Olga Shapovalova. (2017) To the methodology of corpus construction for machine learning: «Taiga» syntax tree corpus and parser. In Proceedings of the International Conference "CORPORA 2017", Saint-Petersbourg, Russia.
+
+
+# Changelog
+
+* 2018-07-01 v2.2
+  * First official release.
 
 
 <pre>
