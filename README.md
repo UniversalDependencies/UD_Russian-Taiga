@@ -1,6 +1,6 @@
 # Summary
 
-Universal Dependencies treebank based on data samples extracted from Taiga Corpus and MorphoRuEval-2017 text collections.
+Universal Dependencies treebank is based on data samples extracted from Taiga Corpus and MorphoRuEval-2017 text collections.
 
 # Introduction
 
@@ -10,11 +10,11 @@ The plain text data were tokenized, lemmatized and parsed using UDpipe ([http://
 
 # Registers
 
-* blogs and social media: 87%
-main source: vk.com
+* blogs and social media: 65%
+main source: vk.com, instagram, facebook, twitter
 
-* naïve poetry: 11% 
-main source: stihi.ru
+* poetry: 34% 
+main source: stihi.ru (naïve poetry), Corpus of Russian poetry (RNC)
 
 * news: 1%
 The tiny news collection was used to train annotators and check annotation consistency with other UD treeabnks.
@@ -22,11 +22,14 @@ The tiny news collection was used to train annotators and check annotation consi
 
 # Data split
 
-v.2.2:
+* v.2.4:
+  * train: 44.9% (16.5K tokens, 1302 sentences, 55% web, 44% poetry, 1% news)  
+  * dev: 27.3% (10K tokens, 945 sentences, 58% web, 42% poetry)  
+  * test: 27.8% (10K tokens, 884 sentences, 88% web, 11% poetry, 2% news)    
 
-* training: 50% (10K tokens, 880 sentences)
-
-* test:  50% (10K tokens, 884 sentences)
+* v.2.2:
+  * train: 50% (10K tokens, 880 sentences)  
+  * test:  50% (10K tokens, 884 sentences)  
 
 # Acknowledgments
 
@@ -46,6 +49,9 @@ Text collections for evaluation of Russian morphological taggers. Jazykovedny Ca
 
 
 # Changelog
+
+* 2019-01-21 v2.3+
+  * Dev added, train expanded, UPOS, FEAT, HEAD, DEPREL updated in accordance with the UD2 guidelines, minor tokenization updates
 
 * 2018-07-01 v2.2
   * First official release.
