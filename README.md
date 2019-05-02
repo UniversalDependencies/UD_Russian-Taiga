@@ -23,9 +23,9 @@ The tiny news collection was used to train annotators and check annotation consi
 # Data split
 
 * v.2.4:
-  * train: 44.9% (16.5K tokens, 1302 sentences, 55% web, 44% poetry, 1% news)  
-  * dev: 27.3% (10K tokens, 945 sentences, 58% web, 42% poetry)  
-  * test: 27.8% (10K tokens, 884 sentences, 88% web, 11% poetry, 2% news)    
+  * train: 43.0% (16.6K tokens, 1302 sentences)  
+  * dev: 26.1% (10.1K tokens, 945 sentences)
+  * test: 30.8% (11.9K tokens, 1017 sentences)
 
 * v.2.2:
   * train: 50% (10K tokens, 880 sentences)  
@@ -49,6 +49,11 @@ Text collections for evaluation of Russian morphological taggers. Jazykovedny Ca
 
 
 # Changelog
+
+* 2019-05-01 v2.4
+  * Major changes
+  * UPOS, FEAT, DEPREL manually fixed
+  * New texts (genre: poetry social) added.
 
 * 2019-01-21 v2.3+
   * Dev added, train expanded, UPOS, FEAT, HEAD, DEPREL updated in accordance with the UD2 guidelines, minor tokenization updates
