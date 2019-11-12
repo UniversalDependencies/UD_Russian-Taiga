@@ -3,8 +3,8 @@ commit d71d1b63fd448a8b098d4b5a0329f8da3f7413b0
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Date:   Sat Apr 21 19:02:58 2018 +0200
 Evaluating the following revision of UD_Russian-Taiga:
-commit 0957a7d5bbb9a0e91e72e316780fb8003d4bc838
-Merge: b2d349c 71b733c
+commit 31deadb4dc301a8e666050895329c3c809c381e5
+Merge: 812b9a5 e8c6a9e
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Size: counted 38555 of 38555 words (nodes).
 Size: min(0, log((N/1000)**2)) = 7.30417158656985.
@@ -19,7 +19,7 @@ Features: 23927 out of 38555 total words have one or more features.
 Features: source of annotation (from README) factor is 1.
 Universal relations: 36 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
-Udapi: found 4182 bugs.
+Udapi: found 4181 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 38555 words.
 Genres: found 4 out of 17 known.
 validate.py --lang ru --max-err=10 UD_Russian-Taiga/ru_taiga-ud-dev.conllu
