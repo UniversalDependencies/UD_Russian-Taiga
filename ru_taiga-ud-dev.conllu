@@ -5672,10 +5672,10 @@
 5	,	,	PUNCT	_	_	7	punct	_	_
 6	как	как	ADV	_	Degree=Pos	7	advmod	_	_
 7	можно	можно	ADV	_	Degree=Pos	4	ccomp	_	_
-8	так	так	ADV	_	Degree=Pos	7	xcomp	_	_
+8	так	так	ADV	_	Degree=Pos	11	orphan	_	_
 9	с	с	ADP	_	_	11	case	_	_
 10	собственным	собственный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
-11	народом	народ	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	8	orphan	_	SpaceAfter=No
+11	народом	народ	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	7	csubj	_	SpaceAfter=No
 12	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = instagram-401
@@ -5822,7 +5822,7 @@
 16	мужчинам	мужчина	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	19	orphan	_	_
 17	до	до	ADP	_	_	19	case	_	_
 18	65	65	NUM	_	_	19	nummod	_	_
-19	лет	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	14	nmod	_	SpaceAfter=No
+19	лет	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	14	conj	_	SpaceAfter=No
 20	)	)	PUNCT	_	_	14	punct	_	_
 
 # sent_id = instagram-408

@@ -81,19 +81,19 @@
   <deps unique="44">
     <dep name="acl">265</dep>
     <dep name="acl:relcl">159</dep>
-    <dep name="advcl">395</dep>
+    <dep name="advcl">397</dep>
     <dep name="advmod">2594</dep>
     <dep name="amod">2099</dep>
     <dep name="appos">368</dep>
     <dep name="aux">95</dep>
     <dep name="aux:pass">11</dep>
     <dep name="case">3468</dep>
-    <dep name="cc">1736</dep>
+    <dep name="cc">1737</dep>
     <dep name="ccomp">193</dep>
     <dep name="compound">17</dep>
-    <dep name="conj">2829</dep>
+    <dep name="conj">2830</dep>
     <dep name="cop">162</dep>
-    <dep name="csubj">146</dep>
+    <dep name="csubj">147</dep>
     <dep name="dep">9</dep>
     <dep name="det">892</dep>
     <dep name="discourse">439</dep>
@@ -114,14 +114,14 @@
     <dep name="nummod:entity">26</dep>
     <dep name="nummod:gov">285</dep>
     <dep name="obj">1503</dep>
-    <dep name="obl">2457</dep>
+    <dep name="obl">2456</dep>
     <dep name="obl:agent">23</dep>
-    <dep name="orphan">120</dep>
+    <dep name="orphan">117</dep>
     <dep name="parataxis">1318</dep>
     <dep name="punct">6372</dep>
     <dep name="reparandum">4</dep>
     <dep name="root">3264</dep>
     <dep name="vocative">284</dep>
-    <dep name="xcomp">374</dep>
+    <dep name="xcomp">373</dep>
   </deps>
 </treebank>

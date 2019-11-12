@@ -5261,7 +5261,7 @@
 16	на	на	ADP	_	_	17	case	_	_
 17	демонстрацию	демонстрация	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	15	obl	_	SpaceAfter=No
 18	,	,	PUNCT	_	_	17	punct	_	_
-19	а	а	CCONJ	_	_	21	orphan	_	_
+19	а	а	CCONJ	_	_	21	cc	_	_
 20	я	я	PRON	_	Case=Nom|Number=Sing|Person=1	15	conj	_	_
 21	своих	свой	DET	_	Case=Gen|Number=Plur	20	orphan	_	_
 22	-	-	PUNCT	_	_	24	punct	_	_
@@ -7761,7 +7761,7 @@
 8	Бесплатно	бесплатно	ADV	_	Degree=Pos	5	appos	_	_
 9	и	и	CCONJ	_	_	10	cc	_	_
 10	недорого	недорого	ADV	_	Degree=Pos	8	conj	_	_
-11	детям	ребенок	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	8	orphan	_	_
+11	детям	ребенок	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	8	nmod	_	_
 12	(	(	PUNCT	_	_	13	punct	_	SpaceAfter=No
 13	СПб	СПб	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	parataxis	_	SpaceAfter=No
 14	]	]	PUNCT	_	_	13	punct	_	SpaceAfter=No
