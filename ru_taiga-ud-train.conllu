@@ -24368,7 +24368,7 @@
 2	сеансом	сеанс	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	5	obl	_	_
 3	на	на	ADP	_	_	4	case	_	_
 4	Гороховой	гороховый	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	2	nmod	_	_
-5	присели	присель	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+5	присели	присесть	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
 6	у	у	ADP	_	_	8	case	_	_
 7	раскрытого	раскрыть	VERB	_	Aspect=Perf|Case=Gen|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	8	amod	_	_
 8	окна	окно	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	obl	_	_
@@ -24377,7 +24377,7 @@
 11	кафе	кафе	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	5	obl	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	13	punct	_	_
 13	заказали	заказать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	5	conj	_	_
-14	фалафель	фалафля	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	13	obj	_	_
+14	фалафель	фалафель	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	13	obj	_	_
 15	и	и	CCONJ	_	_	16	cc	_	_
 16	донер	донер	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	14	conj	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	18	punct	_	_
