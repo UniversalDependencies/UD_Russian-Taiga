@@ -1,26 +1,37 @@
 # Summary
 
-Universal Dependencies treebank is based on data samples extracted from Taiga Corpus and MorphoRuEval-2017 text collections.
+Universal Dependencies treebank is based on data samples extracted from Taiga Corpus and MorphoRuEval-2017 and GramEval-2020 shared tasks collections.
 
 # Introduction
 
-UD Russian Taiga has been developed at the School of Linguistics, National Research University Higher School of Economics in Moscow (HSE/Vyshka). The selection of texts is meant to represent those registers that have not been covered by UD Russian SynTagRus and UD Russian Google Stanford Dependencies, mainly e-communication (blogs and social media). The sentences are extracted from two open data collections. Taiga Corpus ([https://tatianashavrina.github.io/taiga_site/](https://tatianashavrina.github.io/taiga_site/)) is an open-source corpus for machine learning collected by students as part of the curriculum of the MA Program in Computational Linguistics at HSE. MorphoRuEval 2017 text collections ([https://github.com/dialogue-evaluation/morphoRuEval-2017](https://github.com/dialogue-evaluation/morphoRuEval-2017)) is an output of the RuEval shared task 'Evaluation of Russian NLP: Morphological analysis, [http://www.dialog-21.ru/en/evaluation/2017/morphology/](http://www.dialog-21.ru/en/evaluation/2017/morphology/)).
+UD Russian Taiga has been developed at the School of Linguistics, National Research University Higher School of Economics in Moscow (HSE/Vyshka). The selection of texts is meant to represent those registers that have not been covered by UD Russian SynTagRus and UD Russian Google Stanford Dependencies, mainly e-communication (blogs and social media). The sentences are extracted from two open data collections. Taiga Corpus ([https://tatianashavrina.github.io/taiga_site/](https://tatianashavrina.github.io/taiga_site/)) is an open-source corpus for machine learning collected by students as part of the curriculum of the MA Program in Computational Linguistics at HSE. MorphoRuEval 2017 text collections ([https://github.com/dialogue-evaluation/morphoRuEval-2017](https://github.com/dialogue-evaluation/morphoRuEval-2017)) is an output of the RuEval shared task 'Evaluation of Russian NLP: Morphological analysis, [http://www.dialog-21.ru/en/evaluation/2017/morphology/](http://www.dialog-21.ru/en/evaluation/2017/morphology/)). GramEval 2020 collection (https://competitions.codalab.org/competitions/22902)[https://competitions.codalab.org/competitions/22902] is an output of the GramEval 2020 Shared Task on Russian Full Morphology and Dependency Parsing which consists of test data for five genres (social, wiki, news, fiction, poetry).  
 
 The plain text data were tokenized, lemmatized and parsed using UDpipe ([http://ufal.mff.cuni.cz/udpipe](http://ufal.mff.cuni.cz/udpipe)) and checked manually. Corrections were made at all levels: tokenization, lemmata, pos, features, dependency relations.
 
 # Registers
 
-* blogs and social media: 65%
-main source: vk.com, instagram, facebook, twitter
+* blogs and social media: 50%  
+  * source: vk.com, instagram, facebook, twitter, youtube comments  
+  
+* poetry: 23%  
+  * source: stihi.ru (naïve poetry), Corpus of Russian poetry (RNC)  
+  
+* fiction: 12%   
+  * source: Zhurnalnyj zal (magazines.gorky.media), RNC main corpus  
 
-* poetry: 34% 
-main source: stihi.ru (naïve poetry), Corpus of Russian poetry (RNC)
+* news: 13%  
+  * main source: lenta.ru  
 
-* news: 1%
-The tiny news collection was used to train annotators and check annotation consistency with other UD treeabnks.
+* wiki: 2%  
+  * source: Russian wikipedia  
 
 
 # Data split
+
+* v.2.6:
+  * train: 68.1% (43.6K tokens, 3138 sentences)  
+  * dev: 15.8% (10.1K tokens, 945 sentences)
+  * test: 16.1% (10.3K tokens, 881 sentences)  
 
 * v.2.4:
   * train: 43.0% (16.6K tokens, 1302 sentences)  
@@ -33,7 +44,7 @@ The tiny news collection was used to train annotators and check annotation consi
 
 # Acknowledgments
 
-We are grateful to all the contributors to the original open Russian data collections and especially to Tatiana Shavrina (Taiga) and Alena Fenogenova (MorphoRuEval-2017 data set).
+We are grateful to all the contributors to the original open Russian data collections and especially to Tatiana Shavrina (Taiga, GramEval-2020) and Alena Fenogenova (MorphoRuEval-2017).
 
 ## References
 
@@ -49,6 +60,13 @@ Text collections for evaluation of Russian morphological taggers. Jazykovedny Ca
 
 
 # Changelog
+
+* 2020-05-15 v2.6
+  * GramEval2020 shared task data added (genre: news wiki social fiction poetry)
+  * UPOS, FEAT, HEAD, DEPREL validated, minor fixes in lemmas
+
+* 2019-11-15 v2.5
+  * data validated, minor fixes
 
 * 2019-05-01 v2.4
   * Major changes
@@ -67,13 +85,13 @@ Text collections for evaluation of Russian morphological taggers. Jazykovedny Ca
 Data available since: UD v2.2
 License: CC BY-SA 4.0
 Includes text: yes
-Genre: blog news poetry social
+Genre: blog fiction news poetry social wiki
 Lemmas: manual native
 UPOS: manual native
 XPOS: manual native
 Features: manual native
 Relations: manual native
-Contributors: Lyashevskaya, Olga; Rudina, Olga
+Contributors: Lyashevskaya, Olga; Rudina, Olga; Zhuravleva, Anna
 Contributing: elsewhere
 Contact: olesar@yandex.ru
 ===============================================================================
