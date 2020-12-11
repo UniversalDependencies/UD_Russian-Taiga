@@ -61,6 +61,10 @@ Text collections for evaluation of Russian morphological taggers. Jazykovedny Ca
 
 # Changelog
 
+* 2021-05-15 v2.8
+  * Data from otvet.mail.ru (Q&A) and reviews.yandex.ru (reviews&ratings) added
+  * Polarity, PronType, NumType, NumForm normalized
+
 * 2020-05-15 v2.6
   * GramEval2020 shared task data added (genre: news wiki social fiction poetry)
   * UPOS, FEAT, HEAD, DEPREL validated, minor fixes in lemmas
