@@ -348,9 +348,9 @@
 19	между	между	ADP	_	_	20	case	_	_
 20	снимками	снимок	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	18	nmod	_	_
 21	буквально	буквально	ADV	_	Degree=Pos	22	advmod	_	_
-22	3	3	NUM	-	NumForm=Digit|NumType=Card	25	nummod:gov	_	SpaceAfter=No
+22	3	3	NUM	_	NumForm=Digit|NumType=Card	25	nummod:gov	_	SpaceAfter=No
 23	-	-	PUNCT	_	_	24	punct	_	SpaceAfter=No
-24	4	4	NUM	-	NumForm=Digit|NumType=Card	22	nmod	_	_
+24	4	4	NUM	_	NumForm=Digit|NumType=Card	22	nmod	_	_
 25	дня	день	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	17	parataxis	_	SpaceAfter=No
 26	!	!	PUNCT	_	_	7	punct	_	_
 
@@ -444,7 +444,7 @@
 17	призыв	призыв	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	15	obj	_	_
 18	с	с	ADP	_	_	19	case	_	_
 19	чего-то	что-то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing|PronType=Ind	15	obl	_	_
-20	другого	другой	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	19	amod	_	SpaceAfter=No
+20	другого	другой	DET	_	Case=Gen|Gender=Neut|Number=Sing|PronType=Tot	19	amod	_	SpaceAfter=No
 21	,	,	PUNCT	_	_	15	punct	_	_
 22	тот	тот	PRON	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	23	nsubj	_	_
 23	противоречит	противоречить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	parataxis	_	_
@@ -1514,7 +1514,7 @@
 2	смог	смог	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
 3	в	в	ADP	_	_	4	case	_	_
 4	сетях	сеть	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	0	root	_	_
-5	иного	иной	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+5	иного	иной	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Tot	6	amod	_	_
 6	града	град	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	9	punct	_	_
 8	как	как	SCONJ	_	_	9	case	_	_
@@ -2882,7 +2882,7 @@
 14	(	(	PUNCT	_	_	15	punct	_	SpaceAfter=No
 15	Крым	Крым	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	13	parataxis	_	SpaceAfter=No
 16	)	)	PUNCT	_	_	15	punct	_	_
-17	другому	другой	ADJ	_	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	18	amod	_	_
+17	другому	другой	DET	_	Case=Dat|Gender=Neut|Number=Sing|PronType=Tot	18	amod	_	_
 18	государству	государство	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	11	nmod	_	_
 
 # newpar
@@ -4973,7 +4973,7 @@
 14	Когтями	коготь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	12	conj	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	18	punct	_	_
 16	а	а	CCONJ	_	_	18	cc	_	_
-17	другие	другой	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	18	nsubj	_	_
+17	другие	другой	DET	_	Case=Nom|Number=Plur|PronType=Tot	18	nsubj	_	_
 18	лишались	лишаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	6	conj	_	_
 19	способности	способность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	18	obj	_	_
 20	(	(	PUNCT	_	_	22	punct	_	SpaceAfter=No
@@ -5887,7 +5887,7 @@
 3	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
 4	сказала	сказать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	1	parataxis	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	4	punct	_	_
-6	всё-оо	всё	ADV	_	Degree=Pos	1	conj	_	SpaceAfter=No
+6	всё-оо	всё	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing|PronType=Tot	1	conj	_	SpaceAfter=No
 7	!	!	PUNCT	_	_	1	punct	_	_
 
 # sent_id = 6165
@@ -8771,7 +8771,7 @@
 13	дешевле	дешевый	ADJ	_	Degree=Cmp	9	conj	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	16	punct	_	_
 15	чем	чем	SCONJ	_	_	16	case	_	_
-16	другие	другой	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	9	obl	_	SpaceAfter=No
+16	другие	другой	DET	_	Case=Nom|Number=Plur|PronType=Tot	9	obl	_	SpaceAfter=No
 17	;	;	PUNCT	_	_	2	punct	_	_
 
 # newpar
@@ -11832,7 +11832,7 @@
 # text = Гиркина и других можно читать и смотреть в оригинале в сетях.
 1	Гиркина	Гиркин	PROPN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	5	obj	_	_
 2	и	и	CCONJ	_	_	3	cc	_	_
-3	других	другой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	1	conj	_	_
+3	других	другой	DET	_	Case=Gen|Number=Plur|PronType=Tot	1	conj	_	_
 4	можно	можно	VERB	_	_	0	root	_	_
 5	читать	читать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	4	csubj	_	_
 6	и	и	CCONJ	_	_	7	cc	_	_
@@ -11931,7 +11931,7 @@
 6	сам	сам	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Emp	5	acl	_	_
 7	и	и	CCONJ	_	_	8	cc	_	_
 8	раздавать	раздавать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	5	conj	_	_
-9	другим	другой	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	8	iobj	_	SpaceAfter=No
+9	другим	другой	DET	_	Case=Dat|Number=Plur|PronType=Tot	8	iobj	_	SpaceAfter=No
 10	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = 7061
@@ -12585,7 +12585,7 @@
 42	коммунизме	коммунизм	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	39	obl	_	SpaceAfter=No
 43	,	,	PUNCT	_	_	49	punct	_	_
 44	если	если	SCONJ	_	_	49	mark	_	_
-45	других	другой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	46	amod	_	_
+45	других	другой	DET	_	Case=Gen|Number=Plur|PronType=Tot	46	amod	_	_
 46	вождей	вождь	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	49	nsubj	_	_
 47	и	и	PART	_	_	49	advmod	_	_
 48	не	не	PART	_	Polarity=Neg	49	advmod	_	_
@@ -13754,7 +13754,7 @@
 16	)	)	PUNCT	_	_	15	punct	_	_
 17	ни	ни	CCONJ	_	Polarity=Neg	20	cc	_	_
 18	в	в	ADP	_	_	20	case	_	_
-19	ином	иной	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	_
+19	ином	иной	DET	_	Case=Loc|Gender=Masc|Number=Sing|PronType=Tot	20	amod	_	_
 20	органе	орган	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	11	conj	_	SpaceAfter=No
 21	.	.	PUNCT	_	_	3	punct	_	_
 
