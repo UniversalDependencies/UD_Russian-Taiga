@@ -116,7 +116,7 @@
 # text = И почитанье старших.
 1	И	и	CCONJ	_	_	2	cc	_	_
 2	почитанье	почитание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	0	root	_	_
-3	старших	старший	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	2	nmod	_	SpaceAfter=No
+3	старших	старший	ADJ	_	Case=Gen|Degree=Cmp|Number=Plur	2	nmod	_	SpaceAfter=No
 4	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = 21
@@ -304,7 +304,7 @@
 8	звал	звать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	5	acl:relcl	_	_
 9	себя	себя	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	8	obj	_	_
 10	Сыном	сын	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	8	iobj	_	_
-11	Божьим	божий	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	SpaceAfter=No
+11	Божьим	божий	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing|Poss=Yes	10	amod	_	SpaceAfter=No
 12	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = 51
@@ -986,7 +986,7 @@
 56	,	,	PUNCT	_	_	58	punct	_	_
 57	С	с	ADP	_	_	58	case	_	_
 58	пометками	пометка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	61	nmod	_	_
-59	маминой	мамин	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	60	amod	_	_
+59	маминой	мамин	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing|Poss=Yes	60	amod	_	_
 60	ручки	ручка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	58	nmod	_	_
 61	книг	книга	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	48	conj	_	SpaceAfter=No
 62	,	,	PUNCT	_	_	64	punct	_	_
@@ -1601,7 +1601,7 @@
 10	вырост	вырост	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	conj	_	_
 11	—	—	PUNCT	_	_	14	punct	_	_
 12	для	для	ADP	_	_	14	case	_	_
-13	низших	низший	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	14	amod	_	_
+13	низших	низший	ADJ	_	Case=Gen|Degree=Sup|Number=Plur	14	amod	_	_
 14	каст	каста	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	7	conj	_	SpaceAfter=No
 15	!	!	PUNCT	_	_	4	punct	_	_
 
@@ -1933,7 +1933,7 @@
 8	светом	свет	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	9	iobj	_	_
 9	умой	умыть	VERB	_	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	1	conj	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	13	punct	_	_
-11	Божьим	божий	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
+11	Божьим	божий	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing|Poss=Yes	12	amod	_	_
 12	днем	день	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	13	iobj	_	_
 13	согрей	согреть	VERB	_	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	1	conj	_	SpaceAfter=No
 14	!	!	PUNCT	_	_	1	punct	_	_
@@ -3993,7 +3993,7 @@
 2	в	в	ADP	_	_	3	case	_	_
 3	гугле	гугл	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	1	obl	_	_
 4	"	"	PUNCT	_	_	6	punct	_	SpaceAfter=No
-5	худший	худший	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+5	худший	худший	ADJ	_	Case=Nom|Degree=Sup|Gender=Masc|Number=Sing	6	amod	_	_
 6	президент	президент	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	obj	_	_
 7	США	США	PROPN	_	Abbr=Yes|NameType=Geo	6	nmod	_	SpaceAfter=No
 8	"	"	PUNCT	_	_	6	punct	_	SpaceAfter=No
@@ -4283,7 +4283,7 @@
 # genre = social
 # text = Жириновский лучшие моменты 2
 1	Жириновский	Жириновский	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|NameType=Sur|Number=Sing	0	root	_	_
-2	лучшие	лучший	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	3	amod	_	_
+2	лучшие	лучший	ADJ	_	Animacy=Inan|Case=Acc|Degree=Sup|Number=Plur	3	amod	_	_
 3	моменты	момент	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	1	parataxis	_	_
 4	2	2	NUM	_	NumForm=Digit|NumType=Card	3	appos	_	_
 
@@ -4815,7 +4815,7 @@
 10	стремительно	стремительно	ADV	_	Degree=Pos	11	advmod	_	_
 11	превратилась	превратиться	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	5	acl	_	_
 12	в	в	ADP	_	_	14	case	_	_
-13	мощнейшую	мощнейший	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_
+13	мощнейшую	мощнейший	ADJ	_	Case=Acc|Degree=Sup|Gender=Fem|Number=Sing	14	amod	_	_
 14	державу	держава	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	11	obl	_	SpaceAfter=No
 15	.	.	PUNCT	_	_	2	punct	_	_
 
@@ -6562,7 +6562,7 @@
 4	кастрюли	кастрюля	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	obl	_	_
 5	поставить	поставить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	0	root	_	_
 6	кастрюлю	кастрюля	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	5	obj	_	_
-7	меньшего	меньший	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+7	меньшего	меньший	ADJ	_	Case=Gen|Degree=Cmp|Gender=Masc|Number=Sing	8	amod	_	_
 8	диаметра	диаметр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	13	punct	_	_
 10	в	в	ADP	_	_	11	case	_	_
@@ -7143,7 +7143,7 @@
 1	Побалуйте	побаловать	VERB	_	Aspect=Perf|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	0	root	_	_
 2	своих	свой	DET	_	Animacy=Inan|Case=Acc|Number=Plur|Poss=Yes|PronType=Prs|Reflex=Yes	3	det	_	_
 3	любимых	любимый	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	1	obj	_	_
-4	вкуснейшим	вкуснейший	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+4	вкуснейшим	вкуснейший	ADJ	_	Case=Ins|Degree=Sup|Gender=Masc|Number=Sing	7	amod	_	_
 5	и	и	CCONJ	_	_	6	cc	_	_
 6	полезным	полезный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	4	conj	_	_
 7	мармеладом	мармелад	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	1	iobj	_	SpaceAfter=No
@@ -7533,7 +7533,7 @@
 5	выиграть	выиграть	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	4	nmod	_	_
 6	один	один	DET	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|PronType=Ind	5	obj	_	_
 7	из	из	ADP	_	_	9	case	_	_
-8	крутейших	крутейший	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	9	amod	_	_
+8	крутейших	крутейший	ADJ	_	Case=Gen|Degree=Sup|Number=Plur	9	amod	_	_
 9	призов	приз	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	_
 10	нужно	нужный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	_
 11	быть	быть	AUX	_	Aspect=Imp|VerbForm=Inf|Voice=Act	12	cop	_	_
@@ -8073,7 +8073,7 @@
 5	препаратов	препарат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	2	obl	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	7	punct	_	_
 7	обладает	обладать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	_
-8	наименьшими	наименьший	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	10	amod	_	_
+8	наименьшими	наименьший	ADJ	_	Case=Ins|Degree=Sup|Number=Plur	10	amod	_	_
 9	побочными	побочный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	10	amod	_	_
 10	действиями	действие	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Plur	7	obj	_	SpaceAfter=No
 11	.	.	PUNCT	_	_	2	punct	_	_
@@ -10927,7 +10927,7 @@
 # genre = social
 # text = ― Лучшее еще впереди...
 1	―	―	PUNCT	_	_	4	punct	_	_
-2	Лучшее	лучший	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	4	nsubj	_	_
+2	Лучшее	лучший	ADJ	_	Case=Nom|Degree=Sup|Gender=Neut|Number=Sing	4	nsubj	_	_
 3	еще	еще	ADV	_	Degree=Pos	4	advmod	_	_
 4	впереди	впереди	ADV	_	Degree=Pos	0	root	_	SpaceAfter=No
 5	...	...	PUNCT	_	_	4	punct	_	_
@@ -10944,7 +10944,7 @@
 6	меняется	меняться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	3	ccomp	_	_
 7	Уфа	Уфа	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|NameType=Geo|Number=Sing	6	nsubj	_	_
 8	в	в	ADP	_	_	10	case	_	_
-9	лучшую	лучший	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+9	лучшую	лучший	ADJ	_	Case=Acc|Degree=Sup|Gender=Fem|Number=Sing	10	amod	_	_
 10	сторону	сторона	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
 11	.	.	PUNCT	_	_	3	punct	_	_
 12	😜	😜	SYM	_	_	3	discourse	_	_
@@ -13138,7 +13138,7 @@
 15	не	не	PART	_	Polarity=Neg	17	advmod	_	_
 16	в	в	ADP	_	_	17	case	_	_
 17	притонах	притон	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	12	conj	_	_
-18	Марьиной	марьин	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	_
+18	Марьиной	марьин	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing|Poss=Yes	19	amod	_	_
 19	рощи	роща	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	17	nmod	_	SpaceAfter=No
 20	,	,	PUNCT	_	_	23	punct	_	_
 21	а	а	CCONJ	_	_	23	cc	_	_
@@ -13475,7 +13475,7 @@
 4	ребенок	ребенок	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
 5	уже	уже	ADV	_	Degree=Pos	6	advmod	_	_
 6	получила	получить	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
-7	высшее	высший	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	_
+7	высшее	высший	ADJ	_	Animacy=Inan|Case=Acc|Degree=Sup|Gender=Neut|Number=Sing	8	amod	_	_
 8	образование	образование	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	6	obj	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	13	punct	_	_
 10	наверное	наверное	ADV	_	Degree=Pos	13	parataxis	_	SpaceAfter=No
@@ -14000,7 +14000,7 @@
 5	и	и	CCONJ	_	_	6	cc	_	_
 6	имея	иметь	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	2	conj	_	_
 7	два	два	NUM	_	Animacy=Inan|Case=Acc|Gender=Neut|NumForm=Word|NumType=Card	9	nummod:gov	_	_
-8	высших	высший	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	9	amod	_	_
+8	высших	высший	ADJ	_	Case=Gen|Degree=Sup|Number=Plur	9	amod	_	_
 9	образования	образование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	obl	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	2	punct	_	_
 11	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	nsubj	_	_

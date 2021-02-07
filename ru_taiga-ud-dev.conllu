@@ -3641,7 +3641,7 @@
 # sent_id = instagram-278
 # genre = social
 # text = Лучший мой подарочек- это ЛА-ЙК❤️ katerina_elachka #инстамама #марккириллович #впитерепить #давайдружить #люблюбольшежизни #омск #краснодар #сургут #курган #талица #екб #москоусити #анапа #тюмень #катяёла #ростов #инстамать #мамапогодок #личныйблог #курганскаяобласть #киракирилловна #полторагодика #сднемрождениямалышка #маминалюбовь #скрещением
-1	Лучший	лучший	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+1	Лучший	лучший	ADJ	_	Case=Nom|Degree=Sup|Gender=Masc|Number=Sing	3	amod	_	_
 2	мой	мой	DET	_	Case=Nom|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	3	det	_	_
 3	подарочек	подарочек	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	SpaceAfter=No
 4	-	-	PUNCT	_	_	6	punct	_	_
@@ -6887,7 +6887,7 @@
 1	И	и	CCONJ	_	_	5	cc	_	_
 2	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	5	nsubj	_	_
 3	в	в	ADP	_	_	5	case	_	_
-4	лучшем	лучший	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+4	лучшем	лучший	ADJ	_	Case=Loc|Degree=Sup|Gender=Masc|Number=Sing	5	amod	_	_
 5	случае	случай	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	5	punct	_	_
 
@@ -6895,7 +6895,7 @@
 # genre = social
 # text = В худшем - посадят😥😤.
 1	В	в	ADP	_	_	2	case	_	_
-2	худшем	худший	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	4	obl	_	_
+2	худшем	худший	ADJ	_	Case=Loc|Degree=Sup|Gender=Masc|Number=Sing	4	obl	_	_
 3	-	-	PUNCT	_	_	2	punct	_	_
 4	посадят	сажать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
 5	😥😤	😥😤	SYM	_	_	4	discourse	_	SpaceAfter=No
@@ -7310,7 +7310,7 @@
 21	за	за	ADP	_	_	22	case	_	_
 22	косяками	косяк	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	18	obl	_	_
 23	разной	разный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	25	amod	_	_
-24	рыбьей	рыбий	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	25	amod	_	_
+24	рыбьей	рыбий	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing|Poss=Yes	25	amod	_	_
 25	мелочи	мелочь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	22	nmod	_	SpaceAfter=No
 26	.	.	PUNCT	_	_	8	punct	_	_
 
@@ -8257,7 +8257,7 @@
 7	,	,	PUNCT	_	_	10	punct	_	_
 8	тем	тем	SCONJ	_	_	10	mark	_	_
 9	значит	значить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	parataxis	_	_
-10	больше	большой	ADJ	_	Degree=Cmp	0	root	_	_
+10	больше	большой	ADJ	_	Degree=Pos	0	root	_	_
 11	медведь	медведь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_
 12	.	.	PUNCT	_	_	10	punct	_	_
 
@@ -8267,7 +8267,7 @@
 1	Значит	значить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	parataxis	_	_
 2	другой	другой	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Tot	7	nsubj	_	_
 3	,	,	PUNCT	_	_	5	punct	_	_
-4	меньшего	меньший	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+4	меньшего	меньший	ADJ	_	Case=Gen|Degree=Cmp|Gender=Masc|Number=Sing	5	amod	_	_
 5	размера	размер	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
 6	,	,	PUNCT	_	_	5	punct	_	_
 7	уйдёт	уйти	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
@@ -9514,7 +9514,7 @@
 22	сухопутном	сухопутный	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	23	amod	_	_
 23	мосту	мост	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	19	obl	_	_
 24	на	на	ADP	_	_	26	case	_	_
-25	Аничкином	аничкин	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	26	amod	_	_
+25	Аничкином	аничкин	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing|Poss=Yes	26	amod	_	_
 26	посту	пост	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	19	obl	_	_
 27	[	[	PUNCT	_	_	26	punct	_	SpaceAfter=No
 28	...	...	PUNCT	_	_	26	punct	_	SpaceAfter=No
@@ -10971,7 +10971,7 @@
 # genre = poetry
 # text = доставши бабушкин цилиндр и кофту бумазейну молил я Бога исцели трещотками брели музеи ему давали скипидар горчишники с тремасом
 1	доставши	достать	VERB	_	Aspect=Perf|Tense=Past|VerbForm=Conv|Voice=Act	7	advcl	_	_
-2	бабушкин	бабушкин	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+2	бабушкин	бабушкин	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing|Poss=Yes	3	amod	_	_
 3	цилиндр	цилиндр	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	1	obj	_	_
 4	и	и	CCONJ	_	_	5	cc	_	_
 5	кофту	кофта	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	conj	_	_
@@ -11093,7 +11093,7 @@
 8	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
 9	статьи	статья	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	obj	_	_
 10	стали	стать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	3	parataxis	_	_
-11	девкины	девкин	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	12	amod	_	_
+11	девкины	девкин	ADJ	_	Case=Nom|Degree=Pos|Number=Plur|Poss=Yes	12	amod	_	_
 12	рубахи	рубаха	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	10	nsubj	_	_
 13	опу	опу	X	_	_	10	xcomp	_	_
 14	поды	под	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	13	nmod	_	_
