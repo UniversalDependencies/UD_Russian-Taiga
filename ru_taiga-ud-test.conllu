@@ -3361,7 +3361,7 @@
 21	среду	среда	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	22	obl	_	_
 22	подадут	подать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	8	parataxis	_	_
 23	в	в	ADP	_	_	22	orphan	_	SpaceAfter=No
-24	...	...	PUNCT	_	_	8	punct	_	SpaceAfter=No
+24	...	...	PUNCT	_	_	8	punct	_	_
 
 # newpar
 # sent_id = 4149
@@ -3746,7 +3746,7 @@
 16	него	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	obl	_	_
 17	не	не	PART	_	Polarity=Neg	18	advmod	_	_
 18	обижаются	обижаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	11	advcl	_	SpaceAfter=No
-19	...	...	PUNCT	_	_	1	punct	_	SpaceAfter=No
+19	...	...	PUNCT	_	_	1	punct	_	_
 
 # newpar
 # sent_id = 4195
@@ -3785,7 +3785,7 @@
 3	за	за	ADP	_	_	4	case	_	_
 4	кого	кто	PRON	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing|PronType=Int	5	obl	_	_
 5	болеете	болеть	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
-6	))))	))))	SYM	_	_	5	discourse	_	SpaceAfter=No
+6	))))	))))	SYM	_	_	5	discourse	_	_
 
 # newpar
 # sent_id = 4201
@@ -4231,7 +4231,7 @@
 11	и	и	CCONJ	_	_	12	cc	_	_
 12	литературы	литература	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	conj	_	SpaceAfter=No
 13	...	...	PUNCT	_	_	12	punct	_	SpaceAfter=No
-14	)))	)))	SYM	_	_	12	discourse	_	SpaceAfter=No
+14	)))	)))	SYM	_	_	12	discourse	_	_
 
 # newpar
 # sent_id = 4261
@@ -4346,7 +4346,7 @@
 11	несовершеннолетних	несовершеннолетний	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	9	nmod	_	_
 12	-	-	PUNCT	_	_	11	punct	_	_
 13	Новости	новость	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	9	parataxis	_	_
-14	...	...	PUNCT	_	_	13	punct	_	SpaceAfter=No
+14	...	...	PUNCT	_	_	13	punct	_	_
 
 # newpar
 # sent_id = 4273
@@ -4379,7 +4379,7 @@
 9	в	в	ADP	_	_	10	case	_	_
 10	родстве	родство	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	8	nmod	_	SpaceAfter=No
 11	...	...	PUNCT	_	_	10	punct	_	SpaceAfter=No
-12	)	)	PUNCT	_	_	10	punct	_	SpaceAfter=No
+12	)	)	PUNCT	_	_	10	punct	_	_
 
 # newpar
 # sent_id = 4277
@@ -4387,7 +4387,7 @@
 # text = Брехун Жириновский...
 1	Брехун	брехун	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
 2	Жириновский	Жириновский	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|NameType=Sur|Number=Sing	1	appos	_	SpaceAfter=No
-3	...	...	PUNCT	_	_	2	punct	_	SpaceAfter=No
+3	...	...	PUNCT	_	_	2	punct	_	_
 
 # newpar
 # sent_id = 4279
@@ -4418,7 +4418,7 @@
 2	радикальную	радикальный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
 3	меру	мера	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	0	root	_	_
 4	борьбы	борьба	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	SpaceAfter=No
-5	...	...	PUNCT	_	_	4	punct	_	SpaceAfter=No
+5	...	...	PUNCT	_	_	4	punct	_	_
 
 # newpar
 # sent_id = 4283
@@ -4674,7 +4674,7 @@
 9	в	в	ADP	_	_	11	case	_	_
 10	дорожную	дорожный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
 11	лужу	лужа	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	8	obl	_	SpaceAfter=No
-12	...	...	PUNCT	_	_	11	punct	_	SpaceAfter=No
+12	...	...	PUNCT	_	_	11	punct	_	_
 
 # newpar
 # sent_id = 4315
@@ -4745,7 +4745,7 @@
 10	летом	лето	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	12	obl	_	_
 11	не	не	PART	_	Polarity=Neg	12	advmod	_	_
 12	видно	видный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	4	conj	_	SpaceAfter=No
-13	...	...	PUNCT	_	_	4	punct	_	SpaceAfter=No
+13	...	...	PUNCT	_	_	4	punct	_	_
 
 # newpar
 # sent_id = 4323
@@ -8348,7 +8348,7 @@
 5	м	метр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	3	appos	_	SpaceAfter=No
 6	:	:	PUNCT	_	_	1	punct	_	_
 7	12560	12560	NUM	_	NumForm=Digit|NumType=Card	8	nummod:gov	_	SpaceAfter=No
-8	р.	рубль	NOUN	_	Abbr=Yes	0	root	_	SpaceAfter=No
+8	р.	рубль	NOUN	_	Abbr=Yes	0	root	_	_
 
 # newpar
 # sent_id = 6485
@@ -10247,7 +10247,7 @@
 5	,	,	PUNCT	_	_	6	punct	_	_
 6	да	да	PART	_	_	4	parataxis	_	SpaceAfter=No
 7	?	?	PUNCT	_	_	4	punct	_	SpaceAfter=No
-8	))	))	SYM	_	_	4	discourse	_	SpaceAfter=No
+8	))	))	SYM	_	_	4	discourse	_	_
 
 # newpar
 # sent_id = 6759
@@ -10409,7 +10409,7 @@
 19	их	они	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	20	obj	_	_
 20	поставить	поставить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	18	nmod	_	SpaceAfter=No
 21	....	....	PUNCT	_	_	6	punct	_	SpaceAfter=No
-22	)))	)))	SYM	_	_	6	discourse	_	SpaceAfter=No
+22	)))	)))	SYM	_	_	6	discourse	_	_
 
 # newpar
 # sent_id = 6777
@@ -10518,7 +10518,7 @@
 4	на	на	ADP	_	_	5	case	_	_
 5	спине	спина	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	1	acl:relcl	_	_
 6	кот	кот	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	SpaceAfter=No
-7	)))	)))	SYM	_	_	1	discourse	_	SpaceAfter=No
+7	)))	)))	SYM	_	_	1	discourse	_	_
 
 # newpar
 # sent_id = 6789
