@@ -10,19 +10,19 @@ The plain text data were tokenized, lemmatized and parsed using UDpipe ([http://
 
 # Registers
 
-* blogs and social media: 50%  
-  * source: vk.com, instagram, facebook, twitter, youtube comments  
+* blogs and social media:  
+  * source: vk.com, instagram, facebook, twitter, youtube comments, questions & answers (otvet.mail.ru), reviews (reviews.yandex.ru)  
   
-* poetry: 23%  
+* poetry:
   * source: stihi.ru (naïve poetry), Corpus of Russian poetry (RNC)  
   
-* fiction: 12%   
+* fiction:  
   * source: Zhurnalnyj zal (magazines.gorky.media), RNC main corpus  
 
-* news: 13%  
+* news:
   * main source: lenta.ru  
 
-* wiki: 2%  
+* wiki:
   * source: Russian wikipedia  
 
 
@@ -95,7 +95,7 @@ UPOS: manual native
 XPOS: manual native
 Features: manual native
 Relations: manual native
-Contributors: Lyashevskaya, Olga; Rudina, Olga; Zhuravleva, Anna
+Contributors: Lyashevskaya, Olga; Rudina, Olga; Vlasova, Natalia; Zhuravleva, Anna
 Contributing: elsewhere
 Contact: olesar@yandex.ru
 ===============================================================================
