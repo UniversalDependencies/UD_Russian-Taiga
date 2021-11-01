@@ -327,13 +327,13 @@
 # sent_id = 55
 # genre = social
 # text = 23.04.2015 г На левой фотографии такое ощущение как будто я чуть толще, но это так кажеться разница между снимками буквально 3-4 дня!
-1	23.04.2015	23.04.2015	NUM	_	NumForm=Digit	2	amod	_	_
-2	г	год	NOUN	_	Abbr=Yes	0	root	_	_
+1	23.04.2015	23.04.2015	NUM	_	NumForm=Digit	0	root	_	_
+2	г	год	NOUN	_	Abbr=Yes	1	flat	_	_
 3	На	на	ADP	_	_	5	case	_	_
 4	левой	левый	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
 5	фотографии	фотография	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	12	obl	_	_
 6	такое	такой	DET	_	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	7	det	_	_
-7	ощущение	ощущение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	parataxis	_	_
+7	ощущение	ощущение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	1	parataxis	_	_
 8	как	как	SCONJ	_	_	12	mark	_	_
 9	будто	будто	PART	_	_	8	fixed	_	_
 10	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	_
@@ -352,7 +352,7 @@
 23	-	-	PUNCT	_	_	24	punct	_	SpaceAfter=No
 24	4	4	NUM	_	NumForm=Digit|NumType=Card	22	nmod	_	_
 25	дня	день	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	17	parataxis	_	SpaceAfter=No
-26	!	!	PUNCT	_	_	7	punct	_	_
+26	!	!	PUNCT	_	_	25	punct	_	_
 
 # sent_id = 57
 # genre = social
@@ -669,7 +669,7 @@
 # genre = poetry
 # text = Терпеливый смерд, разоренный град, пленный гранд, не вставший с колен!
 1	Терпеливый	терпеливый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
-2	смерд	смерд	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+2	смерд	смерд	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	5	punct	_	_
 4	разоренный	разорить	VERB	_	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	5	amod	_	_
 5	град	град	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	conj	_	SpaceAfter=No
@@ -856,7 +856,7 @@
 24	,	,	PUNCT	_	_	27	punct	_	_
 25	про	про	ADP	_	_	27	case	_	_
 26	белых	белый	ADJ	_	Case=Acc|Degree=Pos|Number=Plur	27	amod	_	_
-27	чаек	чайка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	9	conj	_	_
+27	чаек	чайка	NOUN	_	Animacy=Anim|Case=Acc|Gender=Fem|Number=Plur	9	conj	_	_
 28	у	у	ADP	_	_	29	case	_	_
 29	маяка	маяк	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	27	nmod	_	_
 30	на	на	ADP	_	_	32	case	_	_
@@ -9832,7 +9832,7 @@
 4	целый	целый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
 5	стенд	стенд	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj:pass	_	_
 6	посвящен	посвятить	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	1	parataxis	_	_
-7	казакам	казак	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	6	iobj	_	SpaceAfter=No
+7	казакам	казак	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	6	iobj	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	10	punct	_	_
 9	но	но	CCONJ	_	_	10	cc	_	_
 10	нет	нет	VERB	_	Polarity=Neg	6	conj	_	_
@@ -9870,7 +9870,7 @@
 # genre = social
 # text = Открыл один глаз и подумал: "Нихуя себе! Землетрясение!"
 1	Открыл	открыть	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
-2	один	один	NUM	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|NumForm=Word|NumType=Card	3	amod	_	_
+2	один	один	NUM	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|NumForm=Word|NumType=Card	3	nummod	_	_
 3	глаз	глаз	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	1	obj	_	_
 4	и	и	CCONJ	_	_	5	cc	_	_
 5	подумал	подумать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	1	conj	_	SpaceAfter=No
@@ -10206,7 +10206,7 @@
 # text = УТРОМ СМОТРЮ СМС ОТ МУЖА: — 1:22 ТЫ ГДЕ?
 1	УТРОМ	утро	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	2	obl	_	_
 2	СМОТРЮ	смотреть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-3	СМС	смс	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obj	_	_
+3	СМС	СМС	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obj	_	_
 4	ОТ	от	ADP	_	_	5	case	_	_
 5	МУЖА	муж	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	SpaceAfter=No
 6	:	:	PUNCT	_	_	8	punct	_	_
@@ -10990,7 +10990,7 @@
 1	Мужчина	мужчина	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
 2	должен	должен	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	_
 3	оставаться	оставаться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	2	xcomp	_	_
-4	мужчиной	мужчина	NOUN	_	Animacy=Anim|Case=Ins|Gender=Fem|Number=Sing	3	xcomp	_	SpaceAfter=No
+4	мужчиной	мужчина	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	3	xcomp	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	8	punct	_	_
 6	а	а	CCONJ	_	_	8	cc	_	_
 7	не	не	PART	_	Polarity=Neg	8	advmod	_	_
@@ -11419,7 +11419,7 @@
 6	пройти	пройти	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	5	xcomp	_	_
 7	мимо	мимо	ADP	_	_	9	case	_	_
 8	болотной	болотный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
-9	совы	сова	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
+9	совы	сова	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
 10	)))	)))	SYM	_	_	5	discourse	_	_
 
 # sent_id = 7001
@@ -13168,7 +13168,7 @@
 11	тэги	тэг	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	9	conj	_	_
 12	не	не	PART	_	Polarity=Neg	13	advmod	_	_
 13	пройдут	пройти	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	5	ccomp	_	_
-14	даром	даром	ADV	_	Degree=Pos	13	obl	_	_
+14	даром	даром	ADV	_	Degree=Pos	13	advmod	_	_
 15	-	-	PUNCT	_	_	17	punct	_	_
 16	Анна	Анна	PROPN	_	Animacy=Anim|Case=Nom|Gender=Fem|NameType=Giv|Number=Sing	17	nsubj	_	_
 17	увидит	увидеть	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	5	parataxis	_	SpaceAfter=No
