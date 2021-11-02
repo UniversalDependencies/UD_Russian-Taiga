@@ -61,6 +61,9 @@ Text collections for evaluation of Russian morphological taggers. Jazykovedny Ca
 
 # Changelog
 
+* 2021-11-15 v2.9
+  * Minor corrections, NumType added
+
 * 2021-05-15 v2.8
   * Data from otvet.mail.ru (Q&A) and reviews.yandex.ru (reviews&ratings) added
   * Polarity, PronType, NumType, NumForm normalized
