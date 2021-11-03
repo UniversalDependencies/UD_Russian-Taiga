@@ -1,13 +1,13 @@
 Running the following version of UD tools:
-commit ca3b862e9e2871c76cd91bf78ffb089c0c60184d
+commit 3478a99bb195eb8749c367af4f7b3fd357a12a4c
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Thu May 6 20:16:19 2021 +0200
+Date:   Tue Nov 2 22:17:19 2021 +0100
 Evaluating the following revision of UD_Russian-Taiga:
-commit d87a98403867fa25974419206521f5a2b86a85c5
-Merge: bb57373 aa3c05b
+commit 462c2e795970a720f643debc50383a341a1562c7
+Merge: 185d594 9abb306
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Size: counted 196996 of 196996 words (nodes).
-Size: min(0, log((N/1000)**2)) = 10.5663668479266.
+Size: counted 197001 of 197001 words (nodes).
+Size: min(0, log((N/1000)**2)) = 10.5664176097345.
 Size: maximum value 13.815511 is for 1000000 words or more.
 Split: Found more than 10000 training words.
 Split: Found at least 10000 development words.
@@ -15,14 +15,14 @@ Split: Found at least 10000 test words.
 Lemmas: source of annotation (from README) factor is 1.
 Universal POS tags: 17 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 1.
-Features: 126486 out of 196996 total words have one or more features.
+Features: 126514 out of 197001 total words have one or more features.
 Features: source of annotation (from README) factor is 1.
 Universal relations: 36 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
 Udapi:
-               TOTAL       1727
-Udapi: found 1727 bugs.
-Udapi: worst expected case (threshold) is one bug per 10 words. There are 196996 words.
+               TOTAL       1549
+Udapi: found 1549 bugs.
+Udapi: worst expected case (threshold) is one bug per 10 words. There are 197001 words.
 Genres: found 6 out of 17 known.
 validate.py --lang ru --max-err=10 UD_Russian-Taiga/ru_taiga-ud-dev.conllu
 *** PASSED ***
@@ -34,11 +34,11 @@ Validity: 1
 (weight=0.0769230769230769) * (score{features}=1) = 0.0769230769230769
 (weight=0.0769230769230769) * (score{genres}=0.352941176470588) = 0.0271493212669683
 (weight=0.0769230769230769) * (score{lemmas}=1) = 0.0769230769230769
-(weight=0.256410256410256) * (score{size}=0.764819135969999) = 0.196107470761538
+(weight=0.256410256410256) * (score{size}=0.764822810232172) = 0.196108412880044
 (weight=0.0512820512820513) * (score{split}=1) = 0.0512820512820513
 (weight=0.0769230769230769) * (score{tags}=1) = 0.0769230769230769
-(weight=0.307692307692308) * (score{udapi}=0.912333245345083) = 0.280717921644641
+(weight=0.307692307692308) * (score{udapi}=0.92137095750783) = 0.283498756156255
 (weight=0.0769230769230769) * (score{udeprels}=0.972972972972973) = 0.0748440748440748
-(TOTAL score=0.860870070568504) * (availability=1) * (validity=1) = 0.860870070568504
+(TOTAL score=0.863651847198625) * (availability=1) * (validity=1) = 0.863651847198625
 STARS = 4.5
-UD_Russian-Taiga	0.860870070568504	4.5
+UD_Russian-Taiga	0.863651847198625	4.5
