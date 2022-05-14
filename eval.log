@@ -1,10 +1,10 @@
 Running the following version of UD tools:
-commit 3478a99bb195eb8749c367af4f7b3fd357a12a4c
-Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue Nov 2 22:17:19 2021 +0100
+commit ba6fbf413cb14afa25145b931c79fb60ef9456e2
+Author: www-data (nschneid) <nschneid@github.com>
+Date:   Wed May 11 05:10:30 2022 +0200
 Evaluating the following revision of UD_Russian-Taiga:
-commit 462c2e795970a720f643debc50383a341a1562c7
-Merge: 185d594 9abb306
+commit 2c53ef6c5c25476aa32e570ac70e7a737070730e
+Merge: 8b4b13f 364b2c5
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Size: counted 197001 of 197001 words (nodes).
 Size: min(0, log((N/1000)**2)) = 10.5664176097345.
@@ -15,13 +15,13 @@ Split: Found at least 10000 test words.
 Lemmas: source of annotation (from README) factor is 1.
 Universal POS tags: 17 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 1.
-Features: 126514 out of 197001 total words have one or more features.
+Features: 126503 out of 197001 total words have one or more features.
 Features: source of annotation (from README) factor is 1.
 Universal relations: 36 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
 Udapi:
-               TOTAL       1549
-Udapi: found 1549 bugs.
+               TOTAL       1550
+Udapi: found 1550 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 197001 words.
 Genres: found 6 out of 17 known.
 validate.py --lang ru --max-err=10 UD_Russian-Taiga/ru_taiga-ud-dev.conllu
@@ -37,8 +37,8 @@ Validity: 1
 (weight=0.256410256410256) * (score{size}=0.764822810232172) = 0.196108412880044
 (weight=0.0512820512820513) * (score{split}=1) = 0.0512820512820513
 (weight=0.0769230769230769) * (score{tags}=1) = 0.0769230769230769
-(weight=0.307692307692308) * (score{udapi}=0.92137095750783) = 0.283498756156255
+(weight=0.307692307692308) * (score{udapi}=0.921320196344181) = 0.283483137336671
 (weight=0.0769230769230769) * (score{udeprels}=0.972972972972973) = 0.0748440748440748
-(TOTAL score=0.863651847198625) * (availability=1) * (validity=1) = 0.863651847198625
+(TOTAL score=0.86363622837904) * (availability=1) * (validity=1) = 0.86363622837904
 STARS = 4.5
-UD_Russian-Taiga	0.863651847198625	4.5
+UD_Russian-Taiga	0.86363622837904	4.5
