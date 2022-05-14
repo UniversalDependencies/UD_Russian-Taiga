@@ -396,8 +396,8 @@
 7	инфекций	инфекция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	4	conj	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	9	punct	_	_
 9	распрострончющихся	распространяться	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|Typo=Yes|VerbForm=Part|Voice=Mid	7	acl	_	_
-10	воздушно-	воздушно-капельный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
-11	капельным	капельный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	10	goeswith	_	_
+10	воздушно-	воздушно-капельный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing|Typo=Yes	12	amod	_	_
+11	капельным	_	X	_	_	10	goeswith	_	_
 12	путём	путь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	9	iobj	_	SpaceAfter=No
 13	...	...	PUNCT	_	_	17	punct	_	_
 14	ну	ну	PART	_	_	17	discourse	_	_
@@ -405,8 +405,8 @@
 16	для	для	ADP	_	_	17	case	_	_
 17	красоты	красота	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	conj	_	SpaceAfter=No
 18	...	...	PUNCT	_	_	17	punct	_	_
-19	как	как-то	ADV	_	Degree=Pos|PronType=Ind	21	advmod	_	_
-20	то	то	PART	_	_	19	goeswith	_	_
+19	как	как-то	ADV	_	Degree=Pos|PronType=Ind|Typo=Yes	21	advmod	_	_
+20	то	_	X	_	_	19	goeswith	_	_
 21	так	так	ADV	_	Degree=Pos|PronType=Dem	17	parataxis	_	SpaceAfter=No
 22	)	)	SYM	_	_	4	discourse	_	_
 
@@ -2165,8 +2165,8 @@
 1	Президентский	президентский	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
 2	люкс	люкс	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
 3	во	во	ADP	_	_	6	case	_	_
-4	2	2-й	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing|NumForm=Combi|NumType=Ord	6	amod	_	_
-5	м	м	X	_	_	4	goeswith	_	_
+4	2	2-й	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing|NumForm=Combi|NumType=Ord|Typo=Yes	6	amod	_	_
+5	м	_	X	_	_	4	goeswith	_	_
 6	корпусе	корпус	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	2	punct	_	_
 
@@ -2846,8 +2846,8 @@
 # speaker = screened-12
 # genre = social
 # text = @screened-212 ntynoginsk
-1	@screened-212	@screened-212	PROPN	_	NameType=Prs	0	root	_	_
-2	ntynoginsk	ntynoginsk	X	_	Foreign=Yes	1	goeswith	_	_
+1	@screened-212	@screened-212	PROPN	_	NameType=Prs|Typo=Yes	0	root	_	_
+2	ntynoginsk	_	X	_	_	1	goeswith	_	_
 
 # sent_id = instagram-214
 # speaker = screened-66
@@ -3492,8 +3492,8 @@
 # text = Вот это да ааа!🤗😋
 1	Вот	вот	PART	_	_	3	advmod	_	_
 2	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	3	nsubj	_	_
-3	да	да	PART	_	_	0	root	_	_
-4	ааа	ааа	INTJ	_	_	3	goeswith	_	SpaceAfter=No
+3	да	да-ааа	INTJ	_	Typo=Yes	0	root	_	_
+4	ааа	_	X	_	_	3	goeswith	_	SpaceAfter=No
 5	!	!	PUNCT	_	_	3	punct	_	SpaceAfter=No
 6	🤗😋	🤗😋	SYM	_	_	3	discourse	_	_
 
@@ -5121,9 +5121,9 @@
 21	👌	👌	SYM	_	_	19	discourse	_	_
 22	хоть	хоть	SCONJ	_	_	24	mark	_	_
 23	и	и	PART	_	_	24	advmod	_	_
-24	не	не	PART	_	Polarity=Neg	19	conj	_	_
-25	на	на	ADP	_	_	24	goeswith	_	_
-26	долго	долго	ADV	_	Degree=Pos	24	goeswith	_	SpaceAfter=No
+24	не	ненадолго	ADV	_	Polarity=Neg|Typo=Yes	19	conj	_	comment="не,PART,Polarity=Neg+на,ADP+долго,ADV,Degree=Pos"
+25	на	_	X	_	_	24	goeswith	_	_
+26	долго	_	X	_	_	24	goeswith	_	SpaceAfter=No
 27	))))	))))	SYM	_	_	24	discourse	_	_
 
 # sent_id = instagram-367
@@ -5996,8 +5996,8 @@
 4	-	-	PUNCT	_	_	5	punct	_	_
 5	запретить	запретить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	0	root	_	_
 6	увеличение	увеличение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	5	obj	_	_
-7	каких	какой-либо	DET	_	Case=Gen|Number=Plur|PronType=Ind	9	det	_	_
-8	либо	либо	PART	_	_	7	goeswith	_	_
+7	каких	какой-либо	DET	_	Case=Gen|Number=Plur|PronType=Ind|Typo=Yes	9	det	_	_
+8	либо	_	X	_	_	7	goeswith	_	_
 9	налогов	налог	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	SpaceAfter=No
 10	.	.	PUNCT	_	_	5	punct	_	_
 11	⠀	⠀	PUNCT	_	_	5	punct	_	_
@@ -6961,8 +6961,8 @@
 # sent_id = instagram-482
 # genre = social
 # text = Как- то так😥
-1	Как-	как-то	ADV	_	Degree=Pos|PronType=Ind	3	advmod	_	_
-2	то	то	SCONJ	_	_	1	goeswith	_	_
+1	Как-	как-то	ADV	_	Degree=Pos|PronType=Ind|Typo=Yes	3	advmod	_	_
+2	то	_	X	_	_	1	goeswith	_	_
 3	так	так	ADV	_	Degree=Pos|PronType=Dem	0	root	_	SpaceAfter=No
 4	😥	😥	SYM	_	_	3	discourse	_	_
 
@@ -9163,8 +9163,8 @@
 20	книгою	книга	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	18	obl	_	SpaceAfter=No
 21	:	:	PUNCT	_	_	26	punct	_	_
 22	люди	человек	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	26	nsubj	_	_
-23	когда	когда-то	ADV	_	Degree=Pos|PronType=Ind	26	advmod	_	_
-24	то	то	PART	_	_	23	goeswith	_	_
+23	когда	когда-то	ADV	_	Degree=Pos|PronType=Ind|Typo=Yes	26	advmod	_	_
+24	то	_	X	_	_	23	goeswith	_	_
 25	здесь	здесь	ADV	_	Degree=Pos|PronType=Dem	26	advmod	_	_
 26	были	быть	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	18	parataxis	_	SpaceAfter=No
 27	.	.	PUNCT	_	_	6	punct	_	_
@@ -9884,8 +9884,8 @@
 11	дух	дух	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	_
 12	склонился	склониться	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	3	conj	_	_
 13	на	на	ADP	_	_	14	case	_	_
-14	ошей	ошейник	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	12	obl	_	_
-15	ник	ник	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	14	goeswith	_	_
+14	ошей	ошейник	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Typo=Yes	12	obl	_	_
+15	ник	_	X	_	_	14	goeswith	_	_
 16	и	и	CCONJ	_	_	19	cc	_	_
 17	зыбко	зыбко	ADV	_	Degree=Pos	19	advmod	_	_
 18	руки	рука	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	19	obj	_	_

@@ -541,8 +541,8 @@
 # sent_id = 85
 # genre = social
 # text = Анти российские законы на Украине причины и последствия 22.04.2015
-1	Анти	анти	ADJ	_	_	3	compound	_	_
-2	российские	российский	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	1	goeswith	_	_
+1	Анти	антироссийский	ADJ	_	Case=Nom|Degree=Pos|Number=Plur|Typo=Yes	3	amod	_	_
+2	российские	_	X	_	_	1	goeswith	_	_
 3	законы	закон	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	0	root	_	_
 4	на	на	ADP	_	_	5	case	_	_
 5	Украине	Украина	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|NameType=Geo|Number=Sing	3	nmod	_	_
@@ -2332,8 +2332,8 @@
 # genre = social
 # text = Теперь какой то студент
 1	Теперь	теперь	ADV	_	Degree=Pos|PronType=Dem	4	orphan	_	_
-2	какой	какой-то	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Ind	4	det	_	_
-3	то	то	PART	_	_	2	goeswith	_	_
+2	какой	какой-то	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Ind|Typo=Yes	4	det	_	_
+3	то	_	X	_	_	2	goeswith	_	_
 4	студент	студент	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
 
 # newpar
@@ -3304,8 +3304,8 @@
 9	,	,	PUNCT	_	_	10	punct	_	_
 10	надо	надо	VERB	_	_	2	parataxis	_	_
 11	ещё	еще	ADV	_	Degree=Pos	12	advmod	_	_
-12	какой	какой-то	DET	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|PronType=Ind	10	obj	_	_
-13	то	то	PART	_	_	12	goeswith	_	_
+12	какой	какой-то	DET	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|PronType=Ind|Typo=Yes	10	obj	_	_
+13	то	_	X	_	_	12	goeswith	_	_
 
 # newpar
 # sent_id = 4143
@@ -3436,8 +3436,8 @@
 12	изливает	изливать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	conj	_	_
 13	жёлчь	желчь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	12	obj	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	15	punct	_	SpaceAfter=No
-15	ни	ни	CCONJ	_	Polarity=Neg	5	conj	_	_
-16	какого	какой	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Neg	15	goeswith	_	_
+15	ни	никакой	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Neg|Typo=Yes	12	conj	_	_
+16	какого	_	X	_	_	15	goeswith	_	_
 17	конструктива	конструктив	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	nsubj	_	SpaceAfter=No
 18	.	.	PUNCT	_	_	5	punct	_	_
 
@@ -3818,8 +3818,8 @@
 # genre = social
 # text = @Zhirinovskiy ни чего он не решает просто воду наливает
 1	@Zhirinovskiy	@Zhirinovskiy	PROPN	_	NameType=Prs	4	dislocated	_	_
-2	ни	ни	CCONJ	_	Polarity=Neg	6	obj	_	_
-3	чего	что	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing|PronType=Neg	2	goeswith	_	_
+2	ни	ничто	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing|PronType=Neg|Typo=Yes	6	obj	_	_
+3	чего	_	X	_	_	2	goeswith	_	_
 4	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
 5	не	не	PART	_	Polarity=Neg	6	advmod	_	_
 6	решает	решать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
@@ -4847,8 +4847,8 @@
 # sent_id = 6011
 # genre = social
 # text = Да же педали су..ки отпилили!!!
-1	Да	даже	PART	_	_	3	advmod	_	_
-2	же	же	PART	_	_	1	goeswith	_	_
+1	Да	даже	PART	_	Typo=Yes	3	advmod	_	_
+2	же	_	X	_	_	1	goeswith	_	_
 3	педали	педаль	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	5	obj	_	_
 4	су..ки	сука	NOUN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Plur|Typo=Yes	5	dislocated	_	_
 5	отпилили	отпилить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
@@ -5912,8 +5912,8 @@
 13	не	не	PART	_	Polarity=Neg	14	advmod	_	_
 14	трогает	трогать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	conj	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	20	punct	_	_
-16	чё	че-то	ADV	_	Degree=Pos|PronType=Ind	20	advmod	_	_
-17	то	то	SCONJ	_	_	16	goeswith	_	_
+16	чё	что-то	ADV	_	Degree=Pos|PronType=Ind|Typo=Yes	20	advmod	_	_
+17	то	_	X	_	_	16	goeswith	_	_
 18	там	там	ADV	_	Degree=Pos|PronType=Dem	16	advmod	_	_
 19	печеньки	печенька	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	20	obj	_	_
 20	точит	точить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	conj	_	SpaceAfter=No
@@ -7123,8 +7123,8 @@
 13	,	,	PUNCT	_	_	15	punct	_	_
 14	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	15	parataxis	_	_
 15	всплывет	всплыть	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	3	conj	_	_
-16	где	где-нибудь	ADV	_	Degree=Pos|PronType=Ind	15	advmod	_	_
-17	нибудь	нибудь	PART	_	_	16	goeswith	_	SpaceAfter=No
+16	где	где-нибудь	ADV	_	Degree=Pos|PronType=Ind|Typo=Yes	15	advmod	_	_
+17	нибудь	_	X	_	_	16	goeswith	_	SpaceAfter=No
 18	,	,	PUNCT	_	_	20	punct	_	_
 19	вознаграждение	вознаграждение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	20	obj	_	_
 20	гарантирую	гарантировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	SpaceAfter=No
@@ -8238,8 +8238,8 @@
 # text = Было бы не плохо 😆😈"
 1	Было	быть	AUX	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	cop	_	_
 2	бы	бы	AUX	_	Mood=Cnd	3	aux	_	_
-3	не	не	PART	_	Polarity=Neg	0	root	_	_
-4	плохо	плохой	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	3	goeswith	_	_
+3	не	неплохой	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Typo=Yes|Variant=Short	0	root	_	_
+4	плохо	_	X	_	_	3	goeswith	_	_
 5	😆😈	😆😈	SYM	_	_	3	discourse	_	SpaceAfter=No
 6	"	"	PUNCT	_	_	3	punct	_	_
 
@@ -11211,8 +11211,8 @@
 4	на	на	ADP	_	_	5	case	_	_
 5	стенку	стенка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	1	obl	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	10	punct	_	_
-7	что	чтобы	SCONJ	_	Mood=Cnd	10	mark	_	_
-8	бы	бы	PART	_	_	7	goeswith	_	_
+7	что	чтобы	SCONJ	_	Mood=Cnd|Typo=Yes	10	mark	_	_
+8	бы	_	X	_	_	7	goeswith	_	_
 9	не	не	PART	_	Polarity=Neg	10	advmod	_	_
 10	потерять	потерять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	1	advcl	_	SpaceAfter=No
 11	!	!	PUNCT	_	_	1	punct	_	_
@@ -11550,8 +11550,8 @@
 # text = И мне не приятно видеть как Вы защищаете такого заказушника.
 1	И	и	CCONJ	_	_	3	cc	_	_
 2	мне	я	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	3	iobj	_	_
-3	не	не	PART	_	Polarity=Neg	0	root	_	_
-4	приятно	приятный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	3	goeswith	_	_
+3	не	неприятный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Typo=Yes|Variant=Short	0	root	_	_
+4	приятно	_	X	_	_	3	goeswith	_	_
 5	видеть	видеть	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	3	csubj	_	_
 6	как	как	SCONJ	_	_	8	mark	_	_
 7	Вы	вы	PRON	_	Case=Nom|Number=Plur|Person=2|PronType=Prs	8	nsubj	_	_
