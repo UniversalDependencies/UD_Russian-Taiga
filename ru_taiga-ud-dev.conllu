@@ -11887,7 +11887,7 @@
 7	и	и	CCONJ	_	_	8	cc	_	_
 8	пчёлки	пчелка	NOUN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Plur	3	conj	_	_
 9	вот	вот	PART	_	_	10	advmod	_	_
-10	что	что	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Rel	11	nsubj	_	_
+10	что	что	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Rel	3	appos	_	_
 11	странно	странный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	_
 12	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
 13	стал	стать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	11	parataxis	_	_
