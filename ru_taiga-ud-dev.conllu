@@ -5378,7 +5378,7 @@
 23	-	-	PUNCT	_	_	24	punct	_	SpaceAfter=No
 24	сказке	сказка	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	22	appos	_	_
 25	В.	В.	PROPN	_	Abbr=Yes|NameType=Giv	22	nmod	_	SpaceAfter=No
-26	Г.	Г.	PROPN	_	Abbr=Yes|NameType=Patrn	25	flat:name	_	SpaceAfter=No
+26	Г.	Г.	PROPN	_	Abbr=Yes|NameType=Pat	25	flat:name	_	SpaceAfter=No
 27	Губарева	Губарев	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|NameType=Sur|Number=Sing	25	flat:name	_	SpaceAfter=No
 28	.	.	PUNCT	_	_	12	punct	_	_
 
@@ -11712,7 +11712,7 @@
 8	жила	жить	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 9	княгиня	княгиня	NOUN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	_
 10	Марья	Марья	PROPN	_	Animacy=Anim|Case=Nom|Gender=Fem|NameType=Giv|Number=Sing	9	appos	_	_
-11	Николавна	Николавна	PROPN	_	Animacy=Anim|Case=Nom|Gender=Fem|NameType=Patrn|Number=Sing	10	flat:name	_	_
+11	Николавна	Николавна	PROPN	_	Animacy=Anim|Case=Nom|Gender=Fem|NameType=Pat|Number=Sing	10	flat:name	_	_
 12	она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	_
 13	лицо	лицо	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	14	obj	_	_
 14	имела	иметь	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	8	conj	_	_
@@ -13103,7 +13103,7 @@
 # genre = poetry
 # text = Иван Иванович
 1	Иван	Иван	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|NameType=Giv|Number=Sing	0	root	_	_
-2	Иванович	Иванович	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|NameType=Patrn|Number=Sing	1	flat:name	_	_
+2	Иванович	Иванович	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|NameType=Pat|Number=Sing	1	flat:name	_	_
 
 # sent_id = poetry-rnc-abstract-276
 # genre = poetry
