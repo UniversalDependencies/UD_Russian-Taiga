@@ -62,7 +62,7 @@
     <feat name="NameType" value="Geo" upos="PROPN">1390</feat><!-- россии, сша, Россия, сочи, СССР, Москве, РФ, Убейд, москвы, М. -->
     <feat name="NameType" value="Giv" upos="PROPN">851</feat><!-- Ирина, Генрих, Катя, Петя, александр, Елена, Женя, Надя, андрей, А. -->
     <feat name="NameType" value="Oth" upos="PROPN">60</feat><!-- М, Стереолето, Хаджи-Мухаммед, инете, E, Гелиодор, Оскар, Пасхи, Супербайка, 0А -->
-    <feat name="NameType" value="Patrn" upos="PROPN">140</feat><!-- Александровна, Владимировна, А., Дмитриевич, Анатольевна, В., С., Владимирович, И., Леонидович -->
+    <feat name="NameType" value="Pat" upos="PROPN">140</feat><!-- Александровна, Владимировна, А., Дмитриевич, Анатольевна, В., С., Владимирович, И., Леонидович -->
     <feat name="NameType" value="Pro" upos="PROPN">102</feat><!-- инсте, PS4, Запорожца, КАМАЗа, ПЦР, бат, вискас, дастер, мавик, шарарам -->
     <feat name="NameType" value="Prs" upos="PROPN">449</feat><!-- @xxxxxx, Петрович, Петровича, @Zhirinovskiy, Петровичу, жирик, @screened-200, @screened-18, христа, @screened-134 -->
     <feat name="NameType" value="Sur" upos="PROPN">831</feat><!-- жириновский, жириновского, Путина, Леонов, Явлинский, путин, Петров, Тихонов, Александров, Бернардацци -->
