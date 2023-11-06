@@ -7815,7 +7815,7 @@
 12	курса	курс	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
 13	мастера	мастер	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	_
 14	Н.	Н.	PROPN	_	Abbr=Yes|NameType=Giv	13	appos	_	SpaceAfter=No
-15	П.	П.	PROPN	_	Abbr=Yes|NameType=Patrn	14	flat:name	_	_
+15	П.	П.	PROPN	_	Abbr=Yes|NameType=Pat	14	flat:name	_	_
 16	Наумова	Наумов	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|NameType=Sur|Number=Sing	14	flat:name	_	_
 17	"	"	PUNCT	_	_	19	punct	_	SpaceAfter=No
 18	Теневые	теневой	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	19	amod	_	_
@@ -7858,7 +7858,7 @@
 10	"	"	PUNCT	_	_	8	punct	_	_
 11	и	и	CCONJ	_	_	12	cc	_	_
 12	П.	П.	PROPN	_	Abbr=Yes|NameType=Giv	5	conj	_	SpaceAfter=No
-13	И.	И.	PROPN	_	Abbr=Yes|NameType=Patrn	12	flat:name	_	_
+13	И.	И.	PROPN	_	Abbr=Yes|NameType=Pat	12	flat:name	_	_
 14	Чайковского	Чайковский	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|NameType=Sur|Number=Sing	12	flat:name	_	_
 15	"	"	PUNCT	_	_	17	punct	_	SpaceAfter=No
 16	Детский	детский	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	_
@@ -10507,7 +10507,7 @@
 # text = © В.Е.Турчинский.
 1	©	©	SYM	_	_	0	root	_	_
 2	В.	В.	PROPN	_	Abbr=Yes|NameType=Giv	1	nmod	_	SpaceAfter=No
-3	Е.	Е.	PROPN	_	Abbr=Yes|NameType=Patrn	2	flat:name	_	SpaceAfter=No
+3	Е.	Е.	PROPN	_	Abbr=Yes|NameType=Pat	2	flat:name	_	SpaceAfter=No
 4	Турчинский	Турчинский	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|NameType=Sur|Number=Sing	2	flat:name	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	1	punct	_	_
 
