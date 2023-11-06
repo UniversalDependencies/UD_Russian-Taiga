@@ -1,10 +1,10 @@
 Running the following version of UD tools:
-commit 04abe686385f14a9a6f68784bd723a6b60ded594
+commit e9726a6a7d6913193d90edb45a4cb549235c5b16
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue May 9 00:14:39 2023 +0200
+Date:   Sat Nov 4 17:10:55 2023 +0100
 Evaluating the following revision of UD_Russian-Taiga:
-commit a459a64bc056696716361ed1379508f548aca3ef
-Merge: cc001a0 e3bae4f
+commit c6bd5141f80fca0f72cdc5e4392cff7fad25f956
+Merge: ac424b7 6c9e76d
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Size: counted 197001 of 197001 words (nodes).
 Size: min(0, log((N/1000)**2)) = 10.5664176097345.
@@ -20,8 +20,8 @@ Features: source of annotation (from README) factor is 1.
 Universal relations: 36 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
 Udapi:
-               TOTAL       1529
-Udapi: found 1529 bugs.
+               TOTAL       1525
+Udapi: found 1525 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 197001 words.
 Genres: found 6 out of 17 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang ru --max-err=10 UD_Russian-Taiga/ru_taiga-ud-dev.conllu
@@ -29,6 +29,13 @@ Genres: found 6 out of 17 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang ru --max-err=10 UD_Russian-Taiga/ru_taiga-ud-test.conllu
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang ru --max-err=10 UD_Russian-Taiga/ru_taiga-ud-train.conllu
+[Line 88997 Sent yandex.reviews-m-auqx9e831fy20ceymk03rdzhe8-257-1275 Node 1]: [L3 Warning fixed-gap] Gaps in fixed expression [1, 3] 'Вроде * что'
+[Line 130143 Sent yandex.reviews-m-y9jp796a8qazzdudyv26j1xr7r-1215-6556 Node 9]: [L3 Warning fixed-gap] Gaps in fixed expression [9, 11] 'вроде * как'
+[Line 219604 Sent otvet.mail.ru-question-222199903-2 Node 2]: [L3 Warning fixed-gap] Gaps in fixed expression [2, 4] 'как * раз'
+[Line 226367 Sent otvet.mail.ru-question-222203419-13 Node 1]: [L3 Warning fixed-gap] Gaps in fixed expression [1, 3] 'Как * раз'
+[Line 238222 Sent otvet.mail.ru-question-222206047-4a Node 22]: [L3 Warning fixed-gap] Gaps in fixed expression [22, 24, 25] 'что * не то'
+[Line 263463 Sent otvet.mail.ru-question-222210370-1 Node 5]: [L3 Warning fixed-gap] Gaps in fixed expression [5, 7] 'как * раз'
+Warnings: 6
 *** PASSED ***
 Validity: 1
 (weight=0.0769230769230769) * (score{features}=1) = 0.0769230769230769
@@ -37,8 +44,8 @@ Validity: 1
 (weight=0.256410256410256) * (score{size}=0.764822810232172) = 0.196108412880044
 (weight=0.0512820512820513) * (score{split}=1) = 0.0512820512820513
 (weight=0.0769230769230769) * (score{tags}=1) = 0.0769230769230769
-(weight=0.307692307692308) * (score{udapi}=0.922386180780808) = 0.283811132547941
+(weight=0.307692307692308) * (score{udapi}=0.922589225435404) = 0.283873607826278
 (weight=0.0769230769230769) * (score{udeprels}=0.972972972972973) = 0.0748440748440748
-(TOTAL score=0.86396422359031) * (availability=1) * (validity=1) = 0.86396422359031
+(TOTAL score=0.864026698868647) * (availability=1) * (validity=1) = 0.864026698868647
 STARS = 4.5
-UD_Russian-Taiga	0.86396422359031	4.5
+UD_Russian-Taiga	0.864026698868647	4.5
