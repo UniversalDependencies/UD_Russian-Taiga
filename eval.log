@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit e9726a6a7d6913193d90edb45a4cb549235c5b16
+commit 78ce4b21495c6e4c17a7b07925bec1267d833d14
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sat Nov 4 17:10:55 2023 +0100
+Date:   Sun May 5 09:21:16 2024 +0200
 Evaluating the following revision of UD_Russian-Taiga:
-commit c6bd5141f80fca0f72cdc5e4392cff7fad25f956
-Merge: ac424b7 6c9e76d
+commit 2910cafdaadf8701a41f78fd3783d499928aa2f3
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Mon Nov 6 13:02:35 2023 +0100
 Size: counted 197001 of 197001 words (nodes).
 Size: min(0, log((N/1000)**2)) = 10.5664176097345.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -20,22 +20,46 @@ Features: source of annotation (from README) factor is 1.
 Universal relations: 36 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
 Udapi:
-               TOTAL       1525
-Udapi: found 1525 bugs.
+               TOTAL       1523
+Udapi: found 1523 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 197001 words.
 Genres: found 6 out of 17 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang ru --max-err=10 UD_Russian-Taiga/ru_taiga-ud-dev.conllu
+[Line 94 Sent instagram-6 Node 12]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 93 Sent instagram-6 Node 11]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 95 Sent instagram-6 Node 13]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 93 Sent instagram-6 Node 11]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 208 Sent instagram-12 Node 19]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 207 Sent instagram-12 Node 18]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+Warnings: 6
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang ru --max-err=10 UD_Russian-Taiga/ru_taiga-ud-test.conllu
+[Line 2844 Sent 4091 Node 2]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 2874 Sent 4093 Node 2]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 2963 Sent 4103 Node 2]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 3009 Sent 4107 Node 2]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 3057 Sent 4113 Node 2]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 3259 Sent 4137 Node 2]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 3548 Sent 4169 Node 2]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 4136 Sent 4247 Node 2]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 4179 Sent 4253 Node 2]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 4207 Sent 4257 Node 2]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+...suppressing further errors regarding Warning
+Warnings: 19
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang ru --max-err=10 UD_Russian-Taiga/ru_taiga-ud-train.conllu
-[Line 88997 Sent yandex.reviews-m-auqx9e831fy20ceymk03rdzhe8-257-1275 Node 1]: [L3 Warning fixed-gap] Gaps in fixed expression [1, 3] 'Вроде * что'
-[Line 130143 Sent yandex.reviews-m-y9jp796a8qazzdudyv26j1xr7r-1215-6556 Node 9]: [L3 Warning fixed-gap] Gaps in fixed expression [9, 11] 'вроде * как'
-[Line 219604 Sent otvet.mail.ru-question-222199903-2 Node 2]: [L3 Warning fixed-gap] Gaps in fixed expression [2, 4] 'как * раз'
-[Line 226367 Sent otvet.mail.ru-question-222203419-13 Node 1]: [L3 Warning fixed-gap] Gaps in fixed expression [1, 3] 'Как * раз'
-[Line 238222 Sent otvet.mail.ru-question-222206047-4a Node 22]: [L3 Warning fixed-gap] Gaps in fixed expression [22, 24, 25] 'что * не то'
-[Line 263463 Sent otvet.mail.ru-question-222210370-1 Node 5]: [L3 Warning fixed-gap] Gaps in fixed expression [5, 7] 'как * раз'
-Warnings: 6
+[Line 2774 Sent taiga-train-social-4078 Node 2]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 2795 Sent taiga-train-social-4080 Node 2]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 2872 Sent taiga-train-social-4088 Node 2]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 3009 Sent taiga-train-social-4104 Node 2]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 3041 Sent taiga-train-social-4106 Node 2]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 3064 Sent taiga-train-social-4108 Node 2]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 3185 Sent taiga-train-social-4120 Node 2]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 3341 Sent taiga-train-social-4138 Node 2]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 3565 Sent taiga-train-social-4168 Node 2]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 3887 Sent taiga-train-social-4206 Node 2]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+...suppressing further errors regarding Warning
+Warnings: 82
 *** PASSED ***
 Validity: 1
 (weight=0.0769230769230769) * (score{features}=1) = 0.0769230769230769
@@ -44,8 +68,8 @@ Validity: 1
 (weight=0.256410256410256) * (score{size}=0.764822810232172) = 0.196108412880044
 (weight=0.0512820512820513) * (score{split}=1) = 0.0512820512820513
 (weight=0.0769230769230769) * (score{tags}=1) = 0.0769230769230769
-(weight=0.307692307692308) * (score{udapi}=0.922589225435404) = 0.283873607826278
+(weight=0.307692307692308) * (score{udapi}=0.922690747762702) = 0.283904845465447
 (weight=0.0769230769230769) * (score{udeprels}=0.972972972972973) = 0.0748440748440748
-(TOTAL score=0.864026698868647) * (availability=1) * (validity=1) = 0.864026698868647
+(TOTAL score=0.864057936507816) * (availability=1) * (validity=1) = 0.864057936507816
 STARS = 4.5
-UD_Russian-Taiga	0.864026698868647	4.5
+UD_Russian-Taiga	0.864057936507816	4.5
