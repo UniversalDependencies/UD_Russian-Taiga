@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 78ce4b21495c6e4c17a7b07925bec1267d833d14
+commit c1984d97df0ecdcc1b50fbeaa8c96419c6321432
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun May 5 09:21:16 2024 +0200
+Date:   Sun Nov 10 10:33:45 2024 +0100
 Evaluating the following revision of UD_Russian-Taiga:
-commit 2910cafdaadf8701a41f78fd3783d499928aa2f3
+commit c02536117bebb11712f5077800fda07eb890721d
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Mon Nov 6 13:02:35 2023 +0100
+Date:   Sun May 5 13:26:49 2024 +0200
 Size: counted 197001 of 197001 words (nodes).
 Size: min(0, log((N/1000)**2)) = 10.5664176097345.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -31,7 +31,8 @@ Genres: found 6 out of 17 known.
 [Line 93 Sent instagram-6 Node 11]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
 [Line 208 Sent instagram-12 Node 19]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
 [Line 207 Sent instagram-12 Node 18]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-Warnings: 6
+[Line 1934 Sent instagram-142 Node 1]: [L3 Warning leaf-det] 'det' not expected to have children (1:Какая:det --> 4:быть:cop)
+Warnings: 7
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang ru --max-err=10 UD_Russian-Taiga/ru_taiga-ud-test.conllu
 [Line 2844 Sent 4091 Node 2]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
@@ -48,6 +49,8 @@ Warnings: 6
 Warnings: 19
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang ru --max-err=10 UD_Russian-Taiga/ru_taiga-ud-train.conllu
+[Line 1151 Sent taiga-train-social-2040 Node 5]: [L3 Warning leaf-det] 'det' not expected to have children (5:такую:det --> 12:полить:acl)
+[Line 1410 Sent taiga-train-social-2068 Node 15]: [L3 Warning leaf-det] 'det' not expected to have children (15:такую:det --> 23:разглядеть:acl)
 [Line 2774 Sent taiga-train-social-4078 Node 2]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
 [Line 2795 Sent taiga-train-social-4080 Node 2]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
 [Line 2872 Sent taiga-train-social-4088 Node 2]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
@@ -55,11 +58,9 @@ Warnings: 19
 [Line 3041 Sent taiga-train-social-4106 Node 2]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
 [Line 3064 Sent taiga-train-social-4108 Node 2]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
 [Line 3185 Sent taiga-train-social-4120 Node 2]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 3341 Sent taiga-train-social-4138 Node 2]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 3565 Sent taiga-train-social-4168 Node 2]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 3887 Sent taiga-train-social-4206 Node 2]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 3230 Sent taiga-train-social-4124 Node 6]: [L3 Warning leaf-det] 'det' not expected to have children (6:этом:det --> 8:ребята:nsubj)
 ...suppressing further errors regarding Warning
-Warnings: 82
+Warnings: 114
 *** PASSED ***
 Validity: 1
 (weight=0.0769230769230769) * (score{features}=1) = 0.0769230769230769
