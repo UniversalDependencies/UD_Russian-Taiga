@@ -53,7 +53,7 @@
 # text = Мы собираем свой #Топ100 - что увидеть и попробовать во Вьетнаме.
 1	Мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	_
 2	собираем	собирать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-3	свой	свой	DET	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Poss=Yes|PronType=Dem|Reflex=Yes	4	det	_	_
+3	свой	свой	DET	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	4	det	_	_
 4	#Топ100	#Топ100	X	_	_	2	obj	_	_
 5	-	-	PUNCT	_	_	7	punct	_	_
 6	что	что	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing|PronType=Rel	7	obj	_	_
@@ -271,12 +271,12 @@
 10	цвете	цвет	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	7	obl	_	_
 11	лица	лицо	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	10	nmod	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	16	punct	_	_
-13	в	в	ADP	_	_	16	case	_	_
+13	в	в	ADP	_	ExtPos=ADP	16	case	_	_
 14	отличие	отличие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	13	fixed	_	_
 15	от	от	ADP	_	_	13	fixed	_	_
 16	нас	мы	PRON	_	Case=Gen|Number=Plur|Person=1|PronType=Prs	7	obl	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	22	punct	_	_
-18	которые	который	PRON	_	Case=Nom|Number=Plur|PronType=Rel	22	nsubj	_	_
+18	которые	который	DET	_	Case=Nom|Number=Plur|PronType=Rel	22	nsubj	_	_
 19	зимой	зима	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	22	obl	_	_
 20	и	и	CCONJ	_	_	21	cc	_	_
 21	летом	лето	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	19	conj	_	_
@@ -1025,7 +1025,7 @@
 4	и	и	CCONJ	_	_	5	cc	_	_
 5	видео	видео	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	3	conj	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	9	punct	_	_
-7	которыми	который	PRON	_	Case=Ins|Number=Plur|PronType=Rel	9	obj	_	_
+7	которыми	который	DET	_	Case=Ins|Number=Plur|PronType=Rel	9	obj	_	_
 8	Вы	вы	PRON	_	Case=Nom|Number=Plur|Person=2|PronType=Prs	9	nsubj	_	_
 9	делитесь	делиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Mid	3	acl:relcl	_	_
 10	с	с	ADP	_	_	11	case	_	_
@@ -1102,7 +1102,7 @@
 7	в	в	ADP	_	_	8	case	_	_
 8	хомяка	хомяк	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	12	punct	_	_
-10	который	который	PRON	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	12	nsubj	_	_
+10	который	который	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	12	nsubj	_	_
 11	максимум	максимум	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	12	obl	_	_
 12	способен	способный	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	8	acl:relcl	_	_
 13	на	на	ADP	_	_	15	case	_	_
@@ -1136,7 +1136,7 @@
 1	И	и	CCONJ	_	_	12	cc	_	_
 2	Крым	Крым	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|NameType=Geo|Number=Sing	12	nsubj	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	6	punct	_	_
-4	как	как	SCONJ	_	_	6	case	_	_
+4	как	как	SCONJ	_	ExtPos=ADP	6	case	_	_
 5	и	и	PART	_	_	4	fixed	_	_
 6	Сочи	Сочи	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|NameType=Geo|Number=Sing	2	nmod	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	6	punct	_	_
@@ -1250,7 +1250,7 @@
 26	сбегал	сбегать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	24	conj	_	_
 27	из	из	ADP	_	_	28	case	_	_
 28	зимы	зима	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	26	obl	_	_
-29	как	как	ADV	_	Degree=Pos|PronType=Rel	31	advmod	_	_
+29	как	как	ADV	_	Degree=Pos|ExtPos=ADV|PronType=Rel	31	advmod	_	_
 30	можно	можно	VERB	_	_	29	fixed	_	_
 31	быстрее	быстро	ADV	_	Degree=Cmp	26	advmod	_	SpaceAfter=No
 32	.	.	PUNCT	_	_	8	punct	_	_
@@ -1277,7 +1277,7 @@
 17	запах	запах	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	13	conj	_	_
 18	весны	весна	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	17	nmod	_	SpaceAfter=No
 19	,	,	PUNCT	_	_	21	punct	_	_
-20	который	который	PRON	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|PronType=Rel	22	obj	_	_
+20	который	который	DET	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|PronType=Rel	22	obj	_	_
 21	невозможно	невозможный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	17	acl:relcl	_	_
 22	описать	описать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	21	csubj	_	_
 23	словами	слово	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Plur	22	iobj	_	SpaceAfter=No
@@ -1928,7 +1928,7 @@
 # sent_id = instagram-142
 # genre = social
 # text = Какая мебель должна быть в спальне номера?
-1	Какая	какой	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Int	2	det	_	_
+1	Какая	какой	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Int	3	xcomp	_	_
 2	мебель	мебель	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
 3	должна	должен	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	0	root	_	_
 4	быть	быть	AUX	_	Aspect=Imp|VerbForm=Inf|Voice=Act	1	cop	_	_
@@ -2041,7 +2041,7 @@
 4	нашего	наш	DET	_	Case=Gen|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	5	det	_	_
 5	отеля	отель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	11	punct	_	_
-7	а	а	CCONJ	_	_	11	cc	_	_
+7	а	а	CCONJ	_	ExtPos=CCONJ	11	cc	_	_
 8	также	также	PART	_	_	7	fixed	_	_
 9	за	за	ADP	_	_	11	case	_	_
 10	невероятное	невероятный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	11	amod	_	_
@@ -2303,7 +2303,7 @@
 # speaker = screened-142
 # genre = social
 # text = Ничего себе!!
-1	Ничего	ничего	ADV	_	Degree=Pos|PronType=Neg	0	root	_	_
+1	Ничего	ничего	ADV	_	Degree=Pos|ExtPos=ADJ|PronType=Neg	0	root	_	_
 2	себе	себя	PRON	_	Case=Dat|PronType=Prs|Reflex=Yes	1	fixed	_	SpaceAfter=No
 3	!!	!!	PUNCT	_	_	1	punct	_	_
 
@@ -2947,7 +2947,7 @@
 5	церковных	церковный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	6	amod	_	_
 6	традиций	традиция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	4	nmod	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	10	punct	_	_
-8	которым	который	PRON	_	Case=Dat|Number=Plur|PronType=Rel	10	obj	_	_
+8	которым	который	DET	_	Case=Dat|Number=Plur|PronType=Rel	10	obj	_	_
 9	верующие	верующий	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	10	nsubj	_	_
 10	следуют	следовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	acl:relcl	_	_
 11	уже	уже	ADV	_	Degree=Pos	14	advmod	_	_
@@ -3295,7 +3295,7 @@
 5	,	,	PUNCT	_	_	7	punct	_	SpaceAfter=No
 6	все	всё	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing|PronType=Tot	7	obj	_	_
 7	съедаем	съедать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj	_	_
-8	с	с	ADP	_	_	11	case	_	_
+8	с	с	ADP	_	ExtPos=ADP	11	case	_	_
 9	помощью	помощь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	8	fixed	_	_
 10	большого	большой	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	11	amod	_	_
 11	количества	количество	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	obl	_	_
@@ -3838,7 +3838,7 @@
 # text = А мы всего лишь навсего доехали до проруби, чтобы тупо поглазеть на купающихся 😁
 1	А	а	CCONJ	_	_	6	cc	_	_
 2	мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	6	nsubj	_	_
-3	всего	всего	ADV	_	Degree=Pos|PronType=Tot	6	advmod	_	_
+3	всего	всего	ADV	_	Degree=Pos|ExtPos=ADV|PronType=Tot	6	advmod	_	_
 4	лишь	лишь	PART	_	_	3	fixed	_	_
 5	навсего	навсего	ADV	_	Degree=Pos|PronType=Tot	3	fixed	_	_
 6	доехали	доехать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
@@ -3911,7 +3911,7 @@
 7	пруда	пруд	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	12	punct	_	_
 9	в	в	ADP	_	_	10	case	_	_
-10	котором	который	PRON	_	Case=Loc|Gender=Masc|Number=Sing|PronType=Rel	12	obl	_	_
+10	котором	который	DET	_	Case=Loc|Gender=Masc|Number=Sing|PronType=Rel	12	obl	_	_
 11	летом	лето	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	12	obl	_	_
 12	плавает	плавать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	acl:relcl	_	_
 13	куча	куча	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	_
@@ -4010,7 +4010,7 @@
 10	в	в	ADP	_	_	11	case	_	_
 11	колодец	колодец	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	obl	_	_
 12	из	из	ADP	_	_	13	case	_	_
-13	которого	который	PRON	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Rel	14	obl	_	_
+13	которого	который	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Rel	14	obl	_	_
 14	пьёшь	пить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	11	acl:relcl	_	_
 15	(	(	PUNCT	_	_	20	punct	_	SpaceAfter=No
 16	в	в	ADP	_	_	20	case	_	_
@@ -4257,7 +4257,7 @@
 12	ДОБРОВОЛЬНОЕ	добровольный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	13	amod	_	_
 13	ПОЖЕРТВОВАНИЕ	пожертвование	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	7	ccomp	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	17	punct	_	_
-15	так	так	ADV	_	Degree=Pos|PronType=Dem	17	mark	_	_
+15	так	так	ADV	_	Degree=Pos|ExtPos=SCONJ|PronType=Dem	17	mark	_	_
 16	что	что	SCONJ	_	_	15	fixed	_	_
 17	можно	можно	VERB	_	_	7	advcl	_	_
 18	смело	смело	ADV	_	Degree=Pos	19	advmod	_	_
@@ -5181,7 +5181,7 @@
 4	на	на	ADP	_	_	6	case	_	_
 5	такое	такой	DET	_	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	6	det	_	_
 6	безрассудство	безрассудство	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	3	nmod	_	_
-7	со	со	ADP	_	_	10	case	_	_
+7	со	со	ADP	_	ExtPos=ADP	10	case	_	_
 8	стороны	сторона	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	fixed	_	_
 9	гос.	гос	ADJ	_	_	10	compound	_	SpaceAfter=No
 10	думы	дума	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
@@ -5483,7 +5483,7 @@
 9	,	,	PUNCT	_	_	4	punct	_	_
 10	невольно	невольно	ADV	_	Degree=Pos	15	advmod	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	13	punct	_	_
-12	все	всё	ADV	_	Degree=Pos	13	advmod	_	_
+12	все	всё	ADV	_	Degree=Pos|PronType=Tot	13	advmod	_	pos="ADVPRO"|_
 13	ярче	ярко	ADV	_	Degree=Cmp	15	advmod	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	13	punct	_	_
 15	начинаешь	начинать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
@@ -5713,7 +5713,7 @@
 31	салюты	салют	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	23	conj	_	_
 32	-	-	PUNCT	_	_	33	punct	_	_
 33	пир	пир	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	21	parataxis	_	_
-34	во	во	ADP	_	_	36	case	_	_
+34	во	во	ADP	_	ExtPos=ADP	36	case	_	_
 35	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	34	fixed	_	_
 36	чумы	чума	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	33	nmod	_	SpaceAfter=No
 37	.	.	PUNCT	_	_	5	punct	_	_
@@ -6127,7 +6127,7 @@
 5	русский	русский	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
 6	народ	народ	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obj	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	9	punct	_	_
-8	который	который	PRON	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	9	nsubj	_	_
+8	который	который	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	9	nsubj	_	_
 9	сидит	сидеть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	acl:relcl	_	_
 10	и	и	CCONJ	_	_	11	cc	_	_
 11	ждёт	ждать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	conj	_	SpaceAfter=No
@@ -6326,7 +6326,7 @@
 6	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	nsubj	_	_
 7	тоже	тоже	PART	_	_	14	advmod	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	9	punct	_	_
-9	страсть	страсть	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	14	advmod	_	_
+9	страсть	страсть	NOUN	_	Animacy=Inan|Case=Nom|ExtPos=ADV|Gender=Fem|Number=Sing	14	advmod	_	_
 10	как	как	ADV	_	Degree=Pos|PronType=Rel	9	fixed	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	9	punct	_	_
 12	во	во	ADP	_	_	13	case	_	_
@@ -6521,7 +6521,7 @@
 # sent_id = instagram-451
 # genre = social
 # text = Так что не отстаём и мы от Европы!
-1	Так	так	ADV	_	Degree=Pos|PronType=Dem	4	mark	_	_
+1	Так	так	ADV	_	Degree=Pos|ExtPos=SCONJ|PronType=Dem	4	mark	_	_
 2	что	что	SCONJ	_	_	1	fixed	_	_
 3	не	не	PART	_	Polarity=Neg	4	advmod	_	_
 4	отстаём	отставать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
@@ -6649,7 +6649,7 @@
 2	работаем	работать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	7	punct	_	_
 4	но	но	CCONJ	_	_	7	cc	_	_
-5	все	всё	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Tot	7	advmod	_	_
+5	все	всё	PRON	_	Animacy=Inan|Case=Nom|ExtPos=ADV|Gender=Neut|Number=Sing|PronType=Tot	7	advmod	_	_
 6	равно	равный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	5	fixed	_	_
 7	нищеброды	нищеброд	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	conj	_	SpaceAfter=No
 8	.	.	PUNCT	_	_	2	punct	_	_
@@ -6700,7 +6700,7 @@
 9	Франции	Франция	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|NameType=Geo|Number=Sing	3	obl	_	_
 10	защитного	защитный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
 11	механизма	механизм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nsubj	_	_
-12	в	в	ADP	_	_	21	case	_	_
+12	в	в	ADP	_	ExtPos=ADP	21	case	_	_
 13	виде	вид	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	12	fixed	_	_
 14	хотя	хотя	PART	_	_	21	advmod	_	_
 15	бы	бы	AUX	_	Mood=Cnd	14	fixed	_	SpaceAfter=No
@@ -6852,7 +6852,7 @@
 7	арабы	араб	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	5	conj	_	_
 8	невменяемым	невменяемый	ADJ	_	Case=Dat|Degree=Pos|Number=Plur|Typo=Yes	7	amod	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	14	punct	_	_
-10	которые	который	PRON	_	Case=Nom|Number=Plur|PronType=Rel	14	nsubj	_	_
+10	которые	который	DET	_	Case=Nom|Number=Plur|PronType=Rel	14	nsubj	_	_
 11	из	из	ADP	_	_	12	case	_	_
 12	пустыни	пустыня	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	obl	_	_
 13	вчера	вчера	ADV	_	Degree=Pos	14	advmod	_	_
@@ -6950,7 +6950,7 @@
 12	а	а	CCONJ	_	_	14	cc	_	_
 13	нас	мы	PRON	_	Case=Acc|Number=Plur|Person=1|PronType=Prs	14	obj	_	_
 14	продаст	продать	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	4	conj	_	_
-15	в	в	ADP	_	_	17	case	_	_
+15	в	в	ADP	_	ExtPos=ADP	17	case	_	_
 16	качестве	качество	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	15	fixed	_	_
 17	рабов	раб	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	14	obl	_	_
 18	китайцам	китаец	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	14	iobj	_	_
@@ -6995,7 +6995,7 @@
 # sent_id = instagram-484
 # genre = social
 # text = Потому что он Друг Главного.
-1	Потому	потому	ADV	_	Degree=Pos|PronType=Dem	4	mark	_	_
+1	Потому	потому	ADV	_	Degree=Pos|ExtPos=SCONJ|PronType=Dem	4	mark	_	_
 2	что	что	SCONJ	_	_	1	fixed	_	_
 3	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
 4	Друг	друг	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
@@ -7142,7 +7142,7 @@
 16	производства	производство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	14	obl	_	_
 17	аквакультуры	аквакультура	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	SpaceAfter=No
 18	,	,	PUNCT	_	_	25	punct	_	_
-19	а	а	CCONJ	_	_	25	cc	_	_
+19	а	а	CCONJ	_	ExtPos=CCONJ	25	cc	_	_
 20	также	также	PART	_	_	19	fixed	_	_
 21	на	на	ADP	_	_	25	case	_	_
 22	особо	особо	ADV	_	Degree=Pos	23	advmod	_	_
@@ -7248,7 +7248,7 @@
 5	разным	разный	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	6	amod	_	_
 6	речкам	речка	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Plur	3	obl	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	12	punct	_	_
-8	в	в	ADP	_	_	12	case	_	_
+8	в	в	ADP	_	ExtPos=ADP	12	case	_	_
 9	том	тот	DET	_	Case=Loc|Gender=Neut|Number=Sing|PronType=Dem	8	fixed	_	_
 10	числе	число	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	8	fixed	_	_
 11	в	к	ADP	_	Typo=Yes	12	case	_	_
@@ -7325,7 +7325,7 @@
 1	Клев	клев	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
 2	будет	быть	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	3	cop	_	_
 3	успешен	успешный	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	_
-4	в	в	ADP	_	_	7	case	_	_
+4	в	в	ADP	_	ExtPos=ADP	7	case	_	_
 5	течение	течение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	4	fixed	_	_
 6	всего	весь	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Tot	7	det	_	_
 7	дня	день	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
@@ -7511,7 +7511,7 @@
 # genre = social
 # text = Ведь в течение всего года в нем поддерживается одинаково комфортная температура для купания до +30 градусов!!!
 1	Ведь	ведь	PART	_	_	8	advmod	_	_
-2	в	в	ADP	_	_	5	case	_	_
+2	в	в	ADP	_	ExtPos=ADP	5	case	_	_
 3	течение	течение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	2	fixed	_	_
 4	всего	весь	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Tot	5	det	_	_
 5	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	obl	_	_
@@ -7606,7 +7606,7 @@
 11	можно	можно	VERB	_	_	2	parataxis	_	_
 12	вытащить	вытащить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	11	csubj	_	_
 13	сазана	сазан	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	12	obj	_	_
-14	с	с	ADP	_	_	17	case	_	_
+14	с	с	ADP	_	ExtPos=ADP	17	case	_	_
 15	помощью	помощь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	14	fixed	_	_
 16	донной	донный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	_
 17	снасти	снасть	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	obl	_	SpaceAfter=No
@@ -7881,7 +7881,7 @@
 21	на	на	ADP	_	_	22	case	_	_
 22	дно	дно	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	20	obl	_	SpaceAfter=No
 23	,	,	PUNCT	_	_	28	punct	_	_
-24	но	но	CCONJ	_	_	28	cc	_	_
+24	но	но	CCONJ	_	ExtPos=CCONJ	28	cc	_	_
 25	и	и	PART	_	_	24	fixed	_	_
 26	в	в	ADP	_	_	28	case	_	_
 27	то	тот	DET	_	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	28	det	_	_
@@ -7909,7 +7909,7 @@
 10	поролоновые	поролоновый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	11	amod	_	_
 11	рыбки	рыбка	NOUN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Plur	8	conj	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	14	punct	_	_
-13	которые	который	PRON	_	Case=Nom|Number=Plur|PronType=Rel	14	nsubj	_	_
+13	которые	который	DET	_	Case=Nom|Number=Plur|PronType=Rel	14	nsubj	_	_
 14	ведут	вести	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	acl:relcl	_	_
 15	себя	себя	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	14	obj	_	_
 16	в	в	ADP	_	_	17	case	_	_
@@ -8595,7 +8595,7 @@
 11	в	в	ADP	_	_	12	case	_	_
 12	стакане	стакан	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	16	punct	_	_
-14	как	как	SCONJ	_	_	16	mark	_	_
+14	как	как	SCONJ	_	ExtPos=SCONJ	16	mark	_	_
 15	будто	будто	PART	_	_	14	fixed	_	_
 16	иллюстрируя	иллюстрировать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	7	advcl	_	_
 17	процесс	процесс	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	16	obj	_	_
@@ -8773,7 +8773,7 @@
 # genre = poetry
 # text = Я тоже погибну
 1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
-2	тоже	тоже	ADV	_	Degree=Pos	3	advmod	_	_
+2	тоже	тоже	ADV	_	Degree=Pos|PronType=Dem	3	advmod	_	pos="ADVPRO"|_
 3	погибну	погибнуть	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
 
 # sent_id = poetry-rnc-abstract-15
@@ -8853,7 +8853,7 @@
 12	глаз	глаз	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	16	nsubj	_	_
 13	у	у	ADP	_	_	14	case	_	_
 14	нас	мы	PRON	_	Case=Gen|Number=Plur|Person=1|PronType=Prs	16	obl	_	_
-15	Тоже	тоже	ADV	_	Degree=Pos	16	advmod	_	_
+15	Тоже	тоже	ADV	_	Degree=Pos|PronType=Dem	16	advmod	_	pos="ADVPRO"|_
 16	нет	нет	VERB	_	Polarity=Neg	6	parataxis	_	_
 17	У	у	ADP	_	_	18	case	_	_
 18	нас	мы	PRON	_	Case=Gen|Number=Plur|Person=1|PronType=Prs	19	obl	_	_
@@ -8870,7 +8870,7 @@
 5	Жили	жить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 6	люди	человек	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
 7	У	у	ADP	_	_	8	case	_	_
-8	которых	который	PRON	_	Case=Gen|Number=Plur|PronType=Rel	9	obl	_	_
+8	которых	который	DET	_	Case=Gen|Number=Plur|PronType=Rel	9	obl	_	_
 9	были	быть	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	6	acl:relcl	_	_
 10	глаза	глаз	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	9	nsubj	_	_
 
@@ -8960,7 +8960,7 @@
 2	любил	любить	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 3	девушку	девушка	NOUN	_	Animacy=Anim|Case=Acc|Gender=Fem|Number=Sing	2	obj	_	_
 4	У	у	ADP	_	_	5	case	_	_
-5	которой	который	PRON	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Rel	3	acl:relcl	_	_
+5	которой	который	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Rel	3	acl:relcl	_	_
 6	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	5	cop	_	_
 7	Зеленые	зеленый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	8	amod	_	_
 8	глаза	глаз	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
@@ -9109,11 +9109,11 @@
 7	Все	все	PRON	_	Animacy=Anim|Case=Nom|Number=Plur|PronType=Tot	9	nsubj	_	_
 8	прочь	прочь	ADV	_	Degree=Pos	9	advmod	_	_
 9	побежали	побежать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	2	parataxis	_	_
-10	Как	как	ADV	_	Degree=Pos|PronType=Rel	13	mark	_	_
+10	Как	как	ADV	_	Degree=Pos|ExtPos=SCONJ|PronType=Rel	13	mark	_	_
 11	будто	будто	PART	_	_	10	fixed	_	_
 12	их	они	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	13	obj	_	_
 13	ждали	ждать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	9	advcl	_	_
-14	Как	как	ADV	_	Degree=Pos|PronType=Rel	17	mark	_	_
+14	Как	как	ADV	_	Degree=Pos|ExtPos=SCONJ|PronType=Rel	17	mark	_	_
 15	будто	будто	PART	_	_	14	fixed	_	_
 16	бы	бы	PART	_	_	14	fixed	_	_
 17	знали	знать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	13	conj	_	_
@@ -9780,7 +9780,7 @@
 5	с	с	ADP	_	_	6	case	_	_
 6	брега	брег	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	obl	_	_
 7	А	а	CCONJ	_	_	11	cc	_	_
-8	из	из	ADP	_	_	10	case	_	_
+8	из	из	ADP	_	ExtPos=ADP	10	case	_	_
 9	под	под	ADP	_	_	8	fixed	_	_
 10	ног	нога	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	11	obl	_	_
 11	срывается	срываться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	4	conj	_	_
@@ -10005,7 +10005,7 @@
 9	лук	лук	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	conj	_	_
 10	семя	семя	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	5	conj	_	_
 11	вестнику	вестник	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	15	iobj	_	_
-12	в	в	ADP	_	_	14	case	_	_
+12	в	в	ADP	_	ExtPos=ADP	14	case	_	_
 13	течении	течение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	12	fixed	_	_
 14	лета	лето	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	15	obl	_	_
 15	изъяснился	изъясниться	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	4	parataxis	_	_
@@ -11005,7 +11005,7 @@
 # text = и он как бы поэт Пиндар давился пышным квасом улыбались ночи расам бабкою на сундуке с незабудкою в руке что за ночи просто ночь не улыбки бестолочь
 1	и	и	CCONJ	_	_	7	cc	_	_
 2	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
-3	как	как	ADV	_	Degree=Pos|PronType=Rel	5	advmod	_	_
+3	как	как	ADV	_	Degree=Pos|ExtPos=ADV|PronType=Rel	5	advmod	_	_
 4	бы	бы	PART	_	_	3	fixed	_	_
 5	поэт	поэт	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	appos	_	_
 6	Пиндар	Пиндар	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|NameType=Giv|Number=Sing	5	appos	_	_
@@ -11407,7 +11407,7 @@
 # sent_id = poetry-rnc-abstract-174
 # genre = poetry
 # text = всё же грустно стало мне на таинственном коне очертания стоят а на них бегущий яд твёрдый стриженый лишай
-1	всё	всё	ADV	_	Degree=Pos|PronType=Tot	4	advmod	_	_
+1	всё	всё	ADV	_	Degree=Pos|ExtPos=ADV|PronType=Tot	4	advmod	_	_
 2	же	же	PART	_	_	1	fixed	_	_
 3	грустно	грустный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	4	xcomp	_	_
 4	стало	стать	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
@@ -11544,7 +11544,7 @@
 3	говорит	говорить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	parataxis	_	_
 4	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
 5	правый	правый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
-6	во	во	ADP	_	_	9	case	_	_
+6	во	во	ADP	_	ExtPos=ADP	9	case	_	_
 7	имя	имя	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	6	fixed	_	_
 8	Русския	русский	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
 9	Державы	держава	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	obl	_	_
@@ -11581,7 +11581,7 @@
 4	буржуй	буржуй	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	nsubj	_	_
 5	оттуда	оттуда	ADV	_	Degree=Pos|PronType=Dem	6	advmod	_	_
 6	посмотрел	посмотреть	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	1	conj	_	_
-7	при	при	ADP	_	_	11	case	_	_
+7	при	при	ADP	_	ExtPos=ADP	11	case	_	_
 8	виде	вид	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	7	fixed	_	_
 9	разных	разный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	11	amod	_	_
 10	белый	белый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Typo=Yes	11	amod	_	_
@@ -11771,10 +11771,10 @@
 15	мне	я	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	14	iobj	_	_
 16	стакан	стакан	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	14	obj	_	_
 17	в	в	ADP	_	_	18	case	_	_
-18	котором	который	PRON	_	Case=Loc|Gender=Masc|Number=Sing|PronType=Rel	19	obl	_	_
+18	котором	который	DET	_	Case=Loc|Gender=Masc|Number=Sing|PronType=Rel	19	obl	_	_
 19	бегает	бегать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	16	acl:relcl	_	_
 20	полкан	Полкан	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|NameType=Zoo|Number=Sing	19	nsubj	_	_
-21	который	который	PRON	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	22	nsubj	_	_
+21	который	который	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	22	nsubj	_	_
 22	лает	лаять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	20	acl:relcl	_	_
 23	гав	гав	INTJ	_	_	22	parataxis	_	_
 24	гав	гав	INTJ	_	_	23	conj	_	_
@@ -12107,7 +12107,7 @@
 7	ты	ты	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	8	nsubj	_	_
 8	покойник	покойник	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	ccomp	_	_
 9	и	и	CCONJ	_	_	13	cc	_	_
-10	всё	всё	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Tot	13	advmod	_	_
+10	всё	всё	PRON	_	Animacy=Inan|Case=Nom|ExtPos=ADV|Gender=Neut|Number=Sing|PronType=Tot	13	advmod	_	_
 11	равно	равный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	10	fixed	_	_
 12	что	что	SCONJ	_	_	10	fixed	_	_
 13	рукомойник	рукомойник	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	conj	_	_
@@ -13869,7 +13869,7 @@
 14	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	15	nsubj	_	_
 15	знаю	знать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	_
 16	что	что	SCONJ	_	_	17	mark	_	_
-17	ныне	ныне	ADV	_	Degree=Pos	15	ccomp	_	_
+17	ныне	ныне	ADV	_	Degree=Pos|PronType=Dem	15	ccomp	_	pos="ADVPRO"|_
 18	материи	материя	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	19	nmod	_	_
 19	власть	власть	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	17	nsubj	_	_
 20	мне	я	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	21	iobj	_	_
