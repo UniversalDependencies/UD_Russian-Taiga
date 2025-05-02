@@ -322,12 +322,12 @@
 # sent_id = 53
 # genre = social
 # text = 13:32
-1	13:32	13:32	NUM	_	NumForm=Digit	0	root	_	_
+1	13:32	13:32	NUM	_	NumForm=Digit|NumType=Card	0	root	_	_
 
 # sent_id = 55
 # genre = social
 # text = 23.04.2015 г На левой фотографии такое ощущение как будто я чуть толще, но это так кажеться разница между снимками буквально 3-4 дня!
-1	23.04.2015	23.04.2015	NUM	_	NumForm=Digit	2	amod	_	_
+1	23.04.2015	23.04.2015	NUM	_	NumForm=Digit|NumType=Card	2	amod	_	_
 2	г	год	NOUN	_	Abbr=Yes	0	root	_	_
 3	На	на	ADP	_	_	5	case	_	_
 4	левой	левый	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
@@ -549,7 +549,7 @@
 6	причины	причина	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	3	parataxis	_	_
 7	и	и	CCONJ	_	_	8	cc	_	_
 8	последствия	последствие	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	6	conj	_	_
-9	22.04.2015	22.04.2015	NUM	_	NumForm=Digit	3	list	_	_
+9	22.04.2015	22.04.2015	NUM	_	NumForm=Digit|NumType=Card	3	list	_	_
 
 # sent_id = 87
 # genre = social
@@ -1713,7 +1713,7 @@
 3	видеть	видеть	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	4	csubj	_	_
 4	довольно	довольный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	_
 5	пусть	пусть	PART	_	_	8	advmod	_	_
-6	хотя	хотя	PART	_	_	8	advmod	_	_
+6	хотя	хотя	PART	_	ExtPos=ADV	8	advmod	_	_
 7	бы	бы	PART	_	_	6	fixed	_	_
 8	один	один	DET	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|PronType=Ind	31	det	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	12	punct	_	_
@@ -1877,7 +1877,7 @@
 7	ни	ни	PART	_	Polarity=Neg	8	advmod	_	_
 8	погляжу	поглядеть	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	4	advcl	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	8	punct	_	_
-10	Что	что	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Rel	16	advcl	_	_
+10	Что	что	PRON	_	Animacy=Inan|Case=Nom|ExtPos=PRON|Gender=Neut|Number=Sing|PronType=Rel	16	advcl	_	_
 11	ни	ни	PART	_	Polarity=Neg	10	fixed	_	_
 12	капля	капля	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	_
 13	росы	роса	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	_
@@ -2157,7 +2157,7 @@
 # sent_id = 4003
 # genre = social
 # text = В принципе, много рационального можно вычленить!
-1	В	в	ADP	_	_	6	parataxis	_	_
+1	В	в	ADP	_	ExtPos=ADV	6	parataxis:discourse	_	_
 2	принципе	принцип	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	1	fixed	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
 4	много	много	NUM	_	Case=Acc|NumForm=Word|NumType=Card	5	nummod:gov	_	_
@@ -2604,7 +2604,7 @@
 # text = Сегодня в 21,00 ждём в прямом эфире!
 1	Сегодня	сегодня	ADV	_	Degree=Pos	4	advmod	_	_
 2	в	в	ADP	_	_	3	case	_	_
-3	21,00	21,00	NUM	_	NumForm=Digit	4	obl	_	_
+3	21,00	21,00	NUM	_	NumForm=Digit|NumType=Card	4	obl	_	_
 4	ждём	ждать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 5	в	в	ADP	_	_	7	case	_	_
 6	прямом	прямой	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
@@ -3586,7 +3586,7 @@
 # genre = social
 # text = Найдите хотя бы одного россиянина, который считает, что ЕР способна на самостоятельное независимое от Путина решения!
 1	Найдите	найти	VERB	_	Aspect=Perf|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	0	root	_	_
-2	хотя	хотя	PART	_	_	4	advmod	_	_
+2	хотя	хотя	PART	_	ExtPos=ADV	4	advmod	_	_
 3	бы	бы	PART	_	_	2	fixed	_	_
 4	одного	один	NUM	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing|NumForm=Word|NumType=Card	5	nummod	_	_
 5	россиянина	россиянин	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	1	obj	_	SpaceAfter=No
@@ -3628,7 +3628,7 @@
 # genre = social
 # text = В 20.20 остановка во Владимире @xxxxxx @xxxxxx
 1	В	в	ADP	_	_	2	case	_	_
-2	20.20	20.20	NUM	_	NumForm=Digit	3	obl	_	_
+2	20.20	20.20	NUM	_	NumForm=Digit|NumType=Card	3	obl	_	_
 3	остановка	остановка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
 4	во	во	ADP	_	_	5	case	_	_
 5	Владимире	Владимир	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|NameType=Geo|Number=Sing	3	nmod	_	_
@@ -7551,9 +7551,9 @@
 # genre = social
 # text = 🎥 20.12.2016 в 17:00 по мск состоится розыгрыш в ПРЯМОМ ЭФИРЕ на нашем youtube канале "Палата 6".
 1	🎥	🎥	SYM	_	_	7	discourse	_	_
-2	20.12.2016	20.12.2016	NUM	_	NumForm=Digit	7	obl	_	_
+2	20.12.2016	20.12.2016	NUM	_	NumForm=Digit|NumType=Card	7	obl	_	_
 3	в	в	ADP	_	_	4	case	_	_
-4	17:00	17:00	NUM	_	NumForm=Digit	7	obl	_	_
+4	17:00	17:00	NUM	_	NumForm=Digit|NumType=Card	7	obl	_	_
 5	по	по	ADP	_	_	6	case	_	_
 6	мск	Мск	PROPN	_	Abbr=Yes|NameType=Geo	4	nmod	_	_
 7	состоится	состояться	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	0	root	_	_
@@ -7840,7 +7840,7 @@
 4	вт	вторник	NOUN	_	Abbr=Yes	1	parataxis	_	SpaceAfter=No
 5	)	)	PUNCT	_	_	4	punct	_	_
 6	в	в	ADP	_	_	7	case	_	_
-7	19:00	19:00	NUM	_	NumForm=Digit	1	nmod	_	_
+7	19:00	19:00	NUM	_	NumForm=Digit|NumType=Card	1	nmod	_	_
 
 # newpar
 # sent_id = 6423
@@ -8941,9 +8941,9 @@
 5	+	+	SYM	_	_	4	nmod	_	SpaceAfter=No
 6	)	)	PUNCT	_	_	4	punct	_	_
 7	-	-	PUNCT	_	_	8	punct	_	_
-8	14:00	14:00	NUM	_	NumForm=Digit	0	root	_	_
+8	14:00	14:00	NUM	_	NumForm=Digit|NumType=Card	0	root	_	_
 9	-	-	PUNCT	_	_	10	punct	_	_
-10	16:00	16:00	NUM	_	NumForm=Digit	8	nmod	_	SpaceAfter=No
+10	16:00	16:00	NUM	_	NumForm=Digit|NumType=Card	8	nmod	_	SpaceAfter=No
 11	.	.	PUNCT	_	_	8	punct	_	_
 
 # newpar
@@ -9128,7 +9128,7 @@
 4	люди	человек	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	_
 5	не	не	PART	_	Polarity=Neg	6	advmod	_	_
 6	общаются	общаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
-7	друг	друг	PRON	_	Case=Nom|PronType=Rcp	6	obl	_	_
+7	друг	друг	PRON	_	Case=Nom|ExtPos=PRON|PronType=Rcp	6	obl	_	_
 8	с	с	ADP	_	_	7	fixed	_	_
 9	другом	друг	PRON	_	Case=Ins|PronType=Rcp	7	fixed	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	11	punct	_	_
@@ -10211,7 +10211,7 @@
 5	МУЖА	муж	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	SpaceAfter=No
 6	:	:	PUNCT	_	_	8	punct	_	_
 7	—	—	PUNCT	_	_	8	punct	_	_
-8	1:22	1:22	NUM	_	NumForm=Digit	3	parataxis	_	_
+8	1:22	1:22	NUM	_	NumForm=Digit|NumType=Card	3	parataxis	_	_
 9	ТЫ	ты	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	10	nsubj	_	_
 10	ГДЕ	где	ADV	_	Degree=Pos|PronType=Int	8	parataxis	_	SpaceAfter=No
 11	?	?	PUNCT	_	_	2	punct	_	_
@@ -10221,7 +10221,7 @@
 # genre = social
 # text = — 4:20 ВСЕ НАШЕЛ) СПИ ЛЮБИМАЯ)
 1	—	—	PUNCT	_	_	2	punct	_	_
-2	4:20	4:20	NUM	_	NumForm=Digit	0	root	_	_
+2	4:20	4:20	NUM	_	NumForm=Digit|NumType=Card	0	root	_	_
 3	ВСЕ	всё	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing|PronType=Tot	2	parataxis	_	_
 4	НАШЕЛ	найти	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	parataxis	_	SpaceAfter=No
 5	)	)	SYM	_	_	4	discourse	_	_
@@ -10401,7 +10401,7 @@
 8	постов	пост	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	_
 9	с	с	ADP	_	_	12	case	_	_
 10	этими	этот	DET	_	Case=Ins|Number=Plur|PronType=Dem	12	det	_	_
-11	двумя	два	NUM	_	Case=Ins|NumForm=Word|NumType=Card	12	nummod	_	_
+11	двумя	два	NUM	_	Case=Ins|Gender=Fem|NumForm=Word|NumType=Card	12	nummod	_	_
 12	песнями	песня	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	8	nmod	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	15	punct	_	_
 14	теперь	теперь	ADV	_	Degree=Pos|PronType=Dem	15	advmod	_	_
@@ -11059,7 +11059,7 @@
 4	есть	быть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	advcl	_	_
 5	одно	один	DET	_	Case=Nom|Gender=Neut|Number=Sing|PronType=Ind	4	nsubj	_	_
 6	из	из	ADP	_	_	7	case	_	_
-7	двух	два	NUM	_	Case=Gen|NumForm=Word|NumType=Card	5	nmod	_	SpaceAfter=No
+7	двух	два	NUM	_	Case=Gen|Gender=Masc|NumForm=Word|NumType=Card	5	nmod	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	4	punct	_	_
 9	вы	вы	PRON	_	Case=Nom|Number=Plur|Person=2|PronType=Prs	12	nsubj	_	_
 10	—	—	PUNCT	_	_	12	punct	_	_
@@ -11076,7 +11076,7 @@
 4	в	в	ADP	_	_	5	case	_	_
 5	любви	любовь	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	6	obl	_	_
 6	помогают	помогать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-7	друг	друг	PRON	_	Case=Nom|PronType=Rcp	6	iobj	_	_
+7	друг	друг	PRON	_	Case=Nom|ExtPos=PRON|PronType=Rcp	6	iobj	_	_
 8	другу	друг	PRON	_	Case=Dat|PronType=Rcp	7	fixed	_	_
 9	стать	стать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	6	xcomp	_	_
 10	свободнее	свободный	ADJ	_	Degree=Cmp	9	xcomp	_	SpaceAfter=No
@@ -12102,7 +12102,7 @@
 12	до	до	ADP	_	_	13	case	_	_
 13	выбора	выбор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	_
 14	всего	весь	DET	_	Case=Gen|Gender=Neut|Number=Sing|PronType=Tot	15	det	_	_
-15	остального	остальной	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	13	nmod	_	SpaceAfter=No
+15	остального	остальной	DET	_	Case=Gen|Gender=Neut|Number=Sing|PronType=Tot	13	nmod	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	22	punct	_	_
 17	а	а	CCONJ	_	_	22	cc	_	_
 18	вот	вот	PART	_	_	19	advmod	_	_
@@ -12310,7 +12310,7 @@
 8	РЕАЛЬНО	реально	ADV	_	Degree=Pos	9	advmod	_	_
 9	воевал	воевать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	5	acl:relcl	_	_
 10	(	(	PUNCT	_	_	14	punct	_	SpaceAfter=No
-11	хотя	хотя	PART	_	_	14	advmod	_	_
+11	хотя	хотя	PART	_	ExtPos=ADV	14	advmod	_	_
 12	бы	бы	PART	_	_	11	fixed	_	_
 13	в	в	ADP	_	_	14	case	_	_
 14	конце	конец	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	9	parataxis	_	_
@@ -13677,7 +13677,7 @@
 # sent_id = 7237
 # genre = social
 # text = 14.06.2016 я получил уведомление из суда содержащее следующее: "Информирую Вас о том, что Европейский Суд по правам человека, заседая в период с 28 апреля по 12 мая 2016 года в составе единоличного судьи (R. Spano, при участии докладчика в соответствии со статьёй 24 параграф 2 Конвенции) принял решение объявить Вашу жалобу неприемлемой.
-1	14.06.2016	14.06.2016	NUM	_	NumForm=Digit	3	obl	_	_
+1	14.06.2016	14.06.2016	NUM	_	NumForm=Digit|NumType=Card	3	obl	_	_
 2	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
 3	получил	получить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 4	уведомление	уведомление	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	3	obj	_	_
@@ -13953,7 +13953,7 @@
 7	довольно	довольно	ADV	_	Degree=Pos	8	advmod	_	_
 8	часто	часто	ADV	_	Degree=Pos	9	advmod	_	_
 9	встречался	встречаться	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	3	conj	_	_
-10	нос	нос	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	9	obl	_	_
+10	нос	нос	NOUN	_	Animacy=Inan|Case=Nom|ExtPos=ADV|Gender=Masc|Number=Sing	9	advmod	_	_
 11	к	к	ADP	_	_	10	fixed	_	_
 12	носу	нос	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	10	fixed	_	_
 13	с	с	ADP	_	_	14	case	_	_
