@@ -1,13 +1,13 @@
 Running the following version of UD tools:
-commit c1984d97df0ecdcc1b50fbeaa8c96419c6321432
+commit ecbbdff44b15c9b6de4a691e3499c1286459ab2e
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun Nov 10 10:33:45 2024 +0100
+Date:   Fri May 9 21:07:42 2025 +0200
 Evaluating the following revision of UD_Russian-Taiga:
-commit c02536117bebb11712f5077800fda07eb890721d
+commit 1f9e0f569ade81624a449526c19df4fa324007ea
+Merge: 8d481ac 23bc6de
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun May 5 13:26:49 2024 +0200
-Size: counted 197001 of 197001 words (nodes).
-Size: min(0, log((N/1000)**2)) = 10.5664176097345.
+Size: counted 1000000 of 1758939 words (nodes).
+Size: min(0, log((N/1000)**2)) = 13.8155105579643.
 Size: maximum value 13.815511 is for 1000000 words or more.
 Split: Found more than 10000 training words.
 Split: Found at least 10000 development words.
@@ -15,62 +15,100 @@ Split: Found at least 10000 test words.
 Lemmas: source of annotation (from README) factor is 1.
 Universal POS tags: 17 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 1.
-Features: 126503 out of 197001 total words have one or more features.
+Features: 1102948 out of 1758939 total words have one or more features.
 Features: source of annotation (from README) factor is 1.
 Universal relations: 36 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
 Udapi:
-               TOTAL       1523
-Udapi: found 1523 bugs.
-Udapi: worst expected case (threshold) is one bug per 10 words. There are 197001 words.
-Genres: found 6 out of 17 known.
+               TOTAL       6525
+Udapi: found 6525 bugs.
+Udapi: worst expected case (threshold) is one bug per 10 words. There are 1758939 words.
+Genres: found 6 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang ru --max-err=10 UD_Russian-Taiga/ru_taiga-ud-dev.conllu
-[Line 94 Sent instagram-6 Node 12]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 93 Sent instagram-6 Node 11]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 95 Sent instagram-6 Node 13]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 93 Sent instagram-6 Node 11]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 208 Sent instagram-12 Node 19]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 207 Sent instagram-12 Node 18]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 1934 Sent instagram-142 Node 1]: [L3 Warning leaf-det] 'det' not expected to have children (1:Какая:det --> 4:быть:cop)
-Warnings: 7
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang ru --max-err=10 UD_Russian-Taiga/ru_taiga-ud-test.conllu
-[Line 2844 Sent 4091 Node 2]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 2874 Sent 4093 Node 2]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 2963 Sent 4103 Node 2]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 3009 Sent 4107 Node 2]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 3057 Sent 4113 Node 2]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 3259 Sent 4137 Node 2]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 3548 Sent 4169 Node 2]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 4136 Sent 4247 Node 2]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 4179 Sent 4253 Node 2]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 4207 Sent 4257 Node 2]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-...suppressing further errors regarding Warning
-Warnings: 19
+[Line 15746 Sent uch-nauch--encicl_hudozh--slovar_hudozhnika_103-42 Node 12]: [L3 Warning fixed-gap] Gaps in fixed expression [12, 14] 'друг * друга'
+Warnings: 1
 *** PASSED ***
-/net/work/people/zeman/unidep/tools/validate.py --lang ru --max-err=10 UD_Russian-Taiga/ru_taiga-ud-train.conllu
-[Line 1151 Sent taiga-train-social-2040 Node 5]: [L3 Warning leaf-det] 'det' not expected to have children (5:такую:det --> 12:полить:acl)
-[Line 1410 Sent taiga-train-social-2068 Node 15]: [L3 Warning leaf-det] 'det' not expected to have children (15:такую:det --> 23:разглядеть:acl)
-[Line 2774 Sent taiga-train-social-4078 Node 2]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 2795 Sent taiga-train-social-4080 Node 2]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 2872 Sent taiga-train-social-4088 Node 2]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 3009 Sent taiga-train-social-4104 Node 2]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 3041 Sent taiga-train-social-4106 Node 2]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 3064 Sent taiga-train-social-4108 Node 2]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 3185 Sent taiga-train-social-4120 Node 2]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 3230 Sent taiga-train-social-4124 Node 6]: [L3 Warning leaf-det] 'det' not expected to have children (6:этом:det --> 8:ребята:nsubj)
+/net/work/people/zeman/unidep/tools/validate.py --lang ru --max-err=10 UD_Russian-Taiga/ru_taiga-ud-train-a.conllu
+[Line 10343 Sent taiga-train-social-6732 Node 6]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 10342 Sent taiga-train-social-6732 Node 5]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 10365 Sent taiga-train-social-6736 Node 4]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 10364 Sent taiga-train-social-6736 Node 3]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 10369 Sent taiga-train-social-6736 Node 8]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 10368 Sent taiga-train-social-6736 Node 7]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 59510 Sent mail-ru-health-223a Node 2]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 59509 Sent mail-ru-health-223a Node 1]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 79566 Sent yandex.reviews-m-mfhcnzgpy2jz5fuxe35kbdvh7-62-215 Node 19]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 219604 Sent otvet.mail.ru-question-222199903-2 Node 2]: [L3 Warning fixed-gap] Gaps in fixed expression [2, 4] 'как * раз'
 ...suppressing further errors regarding Warning
-Warnings: 114
+Warnings: 58
+*** PASSED ***
+/net/work/people/zeman/unidep/tools/validate.py --lang ru --max-err=10 UD_Russian-Taiga/ru_taiga-ud-train-b.conllu
+[Line 613 Sent uch-nauch--encicl_litved--slovar-liter1988_047-24 Node 8]: [L3 Warning fixed-gap] Gaps in fixed expression [8, 10] 'друг * друга'
+[Line 2879 Sent uch-nauch--encicl_litved--slovar-liter1988_050-46 Node 10]: [L3 Warning fixed-gap] Gaps in fixed expression [10, 12] 'друг * друге'
+[Line 2958 Sent uch-nauch--encicl_litved--slovar-liter1988_050-49 Node 21]: [L3 Warning fixed-gap] Gaps in fixed expression [21, 23] 'друг * друга'
+[Line 11520 Sent uch-nauch--encicl_litved--slovar-liter1988_063-11 Node 38]: [L3 Warning fixed-gap] Gaps in fixed expression [38, 40] 'друг * другом'
+[Line 18663 Sent uch-nauch--encicl_litved--slovar-liter1988_075-11 Node 2]: [L3 Warning fixed-gap] Gaps in fixed expression [2, 4] 'одно * другим'
+[Line 25223 Sent uch-nauch--encicl_litved--slovar-liter1988_085-42 Node 38]: [L3 Warning fixed-gap] Gaps in fixed expression [38, 40] 'само * себе'
+[Line 29754 Sent uch-nauch--encicl_litved--slovar-liter1988_088-15 Node 16]: [L3 Warning fixed-gap] Gaps in fixed expression [16, 18] 'друг * друга'
+[Line 32676 Sent uch-nauch--encicl_litved--slovar-liter1988_092-17 Node 9]: [L3 Warning fixed-gap] Gaps in fixed expression [9, 11] 'само * себе'
+[Line 33853 Sent uch-nauch--encicl_litved--slovar-liter1988_095-4 Node 7]: [L3 Warning fixed-gap] Gaps in fixed expression [7, 9] 'друг * друга'
+[Line 35034 Sent uch-nauch--encicl_litved--slovar-liter1988_096-9 Node 9]: [L3 Warning fixed-gap] Gaps in fixed expression [9, 11] 'друг * друга'
+...suppressing further errors regarding Warning
+Warnings: 201
+*** PASSED ***
+/net/work/people/zeman/unidep/tools/validate.py --lang ru --max-err=10 UD_Russian-Taiga/ru_taiga-ud-train-c.conllu
+[Line 2705 Sent uch-nauch--narovchatov--narovchatov-160 Node 6]: [L3 Warning fixed-gap] Gaps in fixed expression [6, 8] 'друг * дружкой'
+[Line 6239 Sent uch-nauch--narovchatov--narovchatov-329 Node 23]: [L3 Warning fixed-gap] Gaps in fixed expression [23, 25] 'одну * другой'
+[Line 7218 Sent uch-nauch--narovchatov--narovchatov-379 Node 1]: [L3 Warning fixed-gap] Gaps in fixed expression [1, 4] 'Что * * за'
+[Line 21242 Sent uch-nauch--narovchatov--narovchatov-983 Node 7]: [L3 Warning fixed-gap] Gaps in fixed expression [7, 9] 'сам * себе'
+[Line 27256 Sent uch-nauch--narovchatov--narovchatov-1259 Node 23]: [L3 Warning fixed-gap] Gaps in fixed expression [23, 25] 'друг * другу'
+[Line 38999 Sent uch-nauch--narovchatov--narovchatov-1786 Node 18]: [L3 Warning fixed-gap] Gaps in fixed expression [18, 20] 'сам * себе'
+[Line 47761 Sent uch-nauch--narovchatov--narovchatov-2176 Node 2]: [L3 Warning fixed-gap] Gaps in fixed expression [2, 4] 'друг * другу'
+[Line 50120 Sent uch-nauch--narovchatov--narovchatov-2294 Node 24]: [L3 Warning fixed-gap] Gaps in fixed expression [24, 26] 'сами * себя'
+[Line 55345 Sent uch-nauch--narovchatov--narovchatov-2513 Node 3]: [L3 Warning fixed-gap] Gaps in fixed expression [3, 5] 'сами * себе'
+[Line 62819 Sent uch-nauch--narovchatov--narovchatov-2814 Node 4]: [L3 Warning fixed-gap] Gaps in fixed expression [4, 6] 'сам * себе'
+...suppressing further errors regarding Warning
+Warnings: 84
+*** PASSED ***
+/net/work/people/zeman/unidep/tools/validate.py --lang ru --max-err=10 UD_Russian-Taiga/ru_taiga-ud-train-d.conllu
+[Line 1689 Sent fiction-kids--aleksandrova--aleksandrova_01-115 Node 3]: [L3 Warning fixed-gap] Gaps in fixed expression [3, 5] 'что * за'
+[Line 2522 Sent fiction-kids--aleksandrova--aleksandrova_01-180 Node 4]: [L3 Warning fixed-gap] Gaps in fixed expression [4, 6] 'самому * собой'
+[Line 4918 Sent fiction-kids--aleksandrova--aleksandrova_01-341 Node 6]: [L3 Warning fixed-gap] Gaps in fixed expression [6, 9] 'что * * за'
+[Line 13271 Sent fiction-kids--aleksandrova--aleksandrova_02-265 Node 5]: [L3 Warning fixed-gap] Gaps in fixed expression [5, 7] 'один * другим'
+[Line 14830 Sent fiction-kids--aleksandrova--aleksandrova_02-376 Node 2]: [L3 Warning fixed-gap] Gaps in fixed expression [2, 4] 'сам * собой'
+[Line 24367 Sent fiction-kids--aleksandrova--aleksandrova_03-434 Node 8]: [L3 Warning fixed-gap] Gaps in fixed expression [8, 10] 'одно * другим'
+[Line 31878 Sent fiction-kids--aleksandrova--aleksandrova_03-977 Node 8]: [L3 Warning fixed-gap] Gaps in fixed expression [8, 10] 'одна * другой'
+[Line 39761 Sent fiction-kids--aleksandrova--aleksandrova_04-29 Node 23]: [L3 Warning fixed-gap] Gaps in fixed expression [23, 25] 'друг * другом'
+[Line 39838 Sent fiction-kids--aleksandrova--aleksandrova_04-33 Node 18]: [L3 Warning fixed-gap] Gaps in fixed expression [18, 20] 'друг * друга'
+[Line 41669 Sent fiction-kids--aleksandrova--aleksandrova_04-125 Node 7]: [L3 Warning fixed-gap] Gaps in fixed expression [7, 9] 'друг * друга'
+...suppressing further errors regarding Warning
+Warnings: 93
+*** PASSED ***
+/net/work/people/zeman/unidep/tools/validate.py --lang ru --max-err=10 UD_Russian-Taiga/ru_taiga-ud-train-e.conllu
+[Line 1698 Sent fiction-kids--kuznetsova_yu--kuznecova_03-130 Node 5]: [L3 Warning fixed-gap] Gaps in fixed expression [5, 8] 'что * * за'
+[Line 5660 Sent fiction-kids--kuznetsova_yu--kuznecova_05-51 Node 5]: [L3 Warning fixed-gap] Gaps in fixed expression [5, 7] 'друг * друга'
+[Line 29662 Sent fiction-kids--kuznetsova_yu--kuznecova_15-10 Node 5]: [L3 Warning fixed-gap] Gaps in fixed expression [5, 7] 'друг * другом'
+[Line 36944 Sent fiction-kids--kuznetsova_yu--kuznecova_19-35 Node 2]: [L3 Warning fixed-gap] Gaps in fixed expression [2, 4] 'Что * за'
+[Line 37408 Sent fiction-kids--kuznetsova_yu--kuznecova_19-76 Node 6]: [L3 Warning fixed-gap] Gaps in fixed expression [6, 8] 'друг * друге'
+[Line 40505 Sent fiction-kids--kuznetsova_yu--kuznecova_20-139 Node 3]: [L3 Warning fixed-gap] Gaps in fixed expression [3, 5] 'друг * друга'
+[Line 43355 Sent fiction-kids--kuznetsova_yu--kuznecova_22-80 Node 12]: [L3 Warning fixed-gap] Gaps in fixed expression [12, 14] 'друг * друга'
+[Line 51845 Sent fiction-kids--kuznetsova_yu--kuznecova_23-50 Node 11]: [L3 Warning fixed-gap] Gaps in fixed expression [11, 13] 'одна * другой'
+[Line 60329 Sent fiction-kids--kuznetsova_yu--kuznecova_24-518 Node 5]: [L3 Warning fixed-gap] Gaps in fixed expression [5, 7] 'друг * другу'
+[Line 63485 Sent fiction-kids--kuznetsova_yu--kuznecova_24-758 Node 9]: [L3 Warning fixed-gap] Gaps in fixed expression [9, 11] 'друг * другом'
+...suppressing further errors regarding Warning
+Warnings: 64
 *** PASSED ***
 Validity: 1
 (weight=0.0769230769230769) * (score{features}=1) = 0.0769230769230769
-(weight=0.0769230769230769) * (score{genres}=0.352941176470588) = 0.0271493212669683
+(weight=0.0769230769230769) * (score{genres}=0.333333333333333) = 0.0256410256410256
 (weight=0.0769230769230769) * (score{lemmas}=1) = 0.0769230769230769
-(weight=0.256410256410256) * (score{size}=0.764822810232172) = 0.196108412880044
+(weight=0.256410256410256) * (score{size}=1) = 0.256410256410256
 (weight=0.0512820512820513) * (score{split}=1) = 0.0512820512820513
 (weight=0.0769230769230769) * (score{tags}=1) = 0.0769230769230769
-(weight=0.307692307692308) * (score{udapi}=0.922690747762702) = 0.283904845465447
+(weight=0.307692307692308) * (score{udapi}=0.962903773240573) = 0.296278084074022
 (weight=0.0769230769230769) * (score{udeprels}=0.972972972972973) = 0.0748440748440748
-(TOTAL score=0.864057936507816) * (availability=1) * (validity=1) = 0.864057936507816
+(TOTAL score=0.935224723020661) * (availability=1) * (validity=1) = 0.935224723020661
 STARS = 4.5
-UD_Russian-Taiga	0.864057936507816	4.5
+UD_Russian-Taiga	0.935224723020661	4.5
