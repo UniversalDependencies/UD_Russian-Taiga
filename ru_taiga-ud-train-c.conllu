@@ -2788,7 +2788,7 @@
 7	явления	явление	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	2	obl	_	_
 8	синкретического	синкретический	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	9	amod	_	_
 9	искусства	искусство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	nmod	_	_
-10	вряд	вряд	ADV	_	Degree=Pos|ExtPos=ADV	12	obl:pronmod	_	_
+10	вряд	вряд	ADV	_	Degree=Pos|ExtPos=ADV	12	nmod:pronmod	_	_
 11	ли	ли	PART	_	_	10	fixed	_	_
 12	кому	кто	PRON	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing|PronType=Rel	13	iobj	_	_
 13	придет	прийти	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	feat="Transit=Intr"|_
@@ -3243,7 +3243,7 @@
 5	главных	главный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	7	amod	_	_
 6	своих	свой	DET	_	Case=Loc|Number=Plur|Poss=Yes|PronType=Prs|Reflex=Yes	7	det	_	_
 7	чертах	черта	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	10	obl	_	_
-8	мало	мало	NUM	_	Case=Nom|NumForm=Word|NumType=Card	9	obl:pronmod	_	_
+8	мало	мало	NUM	_	Case=Nom|NumForm=Word|NumType=Card	9	nmod:pronmod	_	_
 9	чем	что	PRON	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing|PronType=Rel	10	iobj	_	_
 10	отличим	отличимый	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	_
 11	от	от	ADP	_	_	13	case	_	_
@@ -6439,7 +6439,7 @@
 7	,	,	PUNCT	_	_	8	punct	_	_
 8	видимо	видимо	ADV	_	_	12	parataxis:discourse	_	pos="PARENTH"|SpaceAfter=No
 9	,	,	PUNCT	_	_	8	punct	_	_
-10	мало	мало	NUM	_	Case=Nom|NumForm=Word|NumType=Card	11	obl:pronmod	_	_
+10	мало	мало	NUM	_	Case=Nom|NumForm=Word|NumType=Card	11	nmod:pronmod	_	_
 11	чем	что	PRON	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing|PronType=Rel	12	iobj	_	_
 12	отличались	отличаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	feat="Transit=Intr"|_
 13	от	от	ADP	_	_	14	case	_	_
@@ -9184,7 +9184,7 @@
 17	сходных	сходный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	18	amod	_	_
 18	черт	черта	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	16	obj	_	_
 19	сколько	сколько	NUM	_	Case=Acc|NumForm=Word|NumType=Card	18	nummod:gov	_	_
-20	угодно	угодный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	19	obl:pronmod	_	pos="PRED"|SpaceAfter=No
+20	угодно	угодный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	19	nmod:pronmod	_	pos="PRED"|SpaceAfter=No
 21	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = uch-nauch--narovchatov--narovchatov-470
@@ -13500,7 +13500,7 @@
 10	,	,	PUNCT	_	_	13	punct	_	_
 11	что	что	SCONJ	_	_	13	mark	_	_
 12	«	«	PUNCT	_	_	13	punct	_	SpaceAfter=No
-13	фантастический	фантастический	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
+13	фантастический	фантастический	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
 14	»	»	PUNCT	_	_	13	punct	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	26	punct	_	_
 16	для	для	ADP	_	_	17	case	_	_
@@ -16318,7 +16318,7 @@
 11	искали	искать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	feat="Transit=Tran"|_
 12	брошенные	бросить	VERB	_	Animacy=Inan|Aspect=Perf|Case=Acc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	15	acl	_	feat="Transit=Tran"|_
 13	где	где	ADV	_	Degree=Pos|ExtPos=ADV|PronType=Rel	12	advmod	_	pos="ADVPRO"|_
-14	попало	попасть	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	13	obl:pronmod	_	feat="Transit=Intr"|_
+14	попало	попасть	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	13	nmod:pronmod	_	feat="Transit=Intr"|_
 15	палки	палка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	11	obj	_	_
 16	и	и	CCONJ	_	_	17	cc	_	_
 17	метлы	метла	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	15	conj	_	SpaceAfter=No
@@ -26115,7 +26115,7 @@
 4	это	этот	DET	_	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	5	det	_	_
 5	слово	слово	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	3	obj	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	3	punct	_	_
-7	редко	редко	ADV	_	Degree=Pos|ExtPos=ADV	8	obl:pronmod	_	_
+7	редко	редко	ADV	_	Degree=Pos|ExtPos=ADV	8	nmod:pronmod	_	_
 8	кто	кто	PRON	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	9	nsubj	_	_
 9	вспоминает	вспоминать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	feat="Transit=Tran"|_
 10	миф	миф	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	obj	_	_
@@ -30987,7 +30987,7 @@
 12	и	и	CCONJ	_	_	13	cc	_	_
 13	отправляйтесь	отправляться	VERB	_	Aspect=Imp|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Mid	3	conj	_	feat="Transit=Intr"|_
 14	куда	куда	ADV	_	Degree=Pos|ExtPos=ADV|PronType=Rel	13	advmod	_	pos="ADVPRO"|_
-15	угодно	угодный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	14	obl:pronmod	_	pos="PRED"|SpaceAfter=No
+15	угодно	угодный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	14	nmod:pronmod	_	pos="PRED"|SpaceAfter=No
 16	»	»	PUNCT	_	_	3	punct	_	SpaceAfter=No
 17	.	.	PUNCT	_	_	3	punct	_	_
 
@@ -33919,7 +33919,7 @@
 4	очи	око	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	3	obj	_	_
 5	горе	горе	ADV	_	Degree=Pos	3	advmod	_	SpaceAfter=No
 6	»	»	PUNCT	_	_	3	punct	_	_
-7	редко	редко	ADV	_	Degree=Pos|ExtPos=ADV	8	obl:pronmod	_	_
+7	редко	редко	ADV	_	Degree=Pos|ExtPos=ADV	8	nmod:pronmod	_	_
 8	кто	кто	PRON	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	9	nsubj	_	_
 9	поймет	понять	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	feat="Transit=Tran"|_
 10	сейчас	сейчас	ADV	_	Degree=Pos|PronType=Dem	9	advmod	_	pos="ADVPRO"|SpaceAfter=No
@@ -43073,7 +43073,7 @@
 7	»	»	PUNCT	_	_	6	punct	_	_
 8	взять	взять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	4	xcomp	_	feat="Transit=Tran"|_
 9	что	что	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing|PronType=Rel	8	obj	_	_
-10	угодно	угодный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	9	obl:pronmod	_	pos="PRED"|_
+10	угодно	угодный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	9	nmod:pronmod	_	pos="PRED"|_
 11	со	со	ADP	_	_	12	case	_	_
 12	двора	двор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	16	punct	_	_
@@ -53575,7 +53575,7 @@
 22	тяжелой	тяжелый	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	23	amod	_	_
 23	рукой	рука	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	20	iobj	_	SpaceAfter=No
 24	,	,	PUNCT	_	_	20	punct	_	_
-25	невесть	невесть	VERB	_	Polarity=Neg	27	obl:pronmod	_	pos="PRED"
+25	невесть	невесть	VERB	_	Polarity=Neg	27	nmod:pronmod	_	pos="PRED"
 26	о	о	ADP	_	_	27	case	_	_
 27	чем	что	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing|PronType=Rel	28	obl	_	_
 28	призадумался	призадуматься	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	6	conj	_	feat="Transit=Intr"|SpaceAfter=No
@@ -65146,7 +65146,7 @@
 18	спустя	спустя	ADP	_	_	22	case	_	_
 19	пять	пять	NUM	_	Case=Acc|NumForm=Word|NumType=Card	22	nummod:gov	_	_
 20	с	с	ADP	_	_	21	case	_	_
-21	лишним	лишний	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	19	obl	_	_
+21	лишним	лишний	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	19	nmod	_	_
 22	тысячелетий	тысячелетие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	12	obl:tmod	_	SpaceAfter=No
 23	.	.	PUNCT	_	_	5	punct	_	sent_after='</p>\n<p>'
 
@@ -83737,7 +83737,7 @@
 6	способны	способный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	0	root	_	_
 7	были	быть	AUX	_	Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	6	cop	_	feat="Transit=Intr"|_
 8	кого	кто	PRON	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing|PronType=Rel	10	obj	_	_
-9	угодно	угодный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	8	obl:pronmod	_	pos="PRED"|_
+9	угодно	угодный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	8	nmod:pronmod	_	pos="PRED"|_
 10	сделать	сделать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	6	xcomp	_	feat="Transit=Tran"|_
 11	калеками	калека	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	10	xcomp	_	SpaceAfter=No
 12	.	.	PUNCT	_	_	6	punct	_	_
@@ -87727,7 +87727,7 @@
 # text = Тогда пущашеть 10 соколовь на стадо лебедей, который дотечаше, та преди песнь пояше старому Ярославу, храброму Мстиславу, иже зареза Редедю пред плки Касожьскыми, красному Романови Святославличю.
 1	Тогда	тогда	X	_	Foreign=Yes	0	root	_	_
 2	пущашеть	пущашеть	X	_	Foreign=Yes	1	flat:foreign	_	_
-3	10	10	NUM	_	NumForm=Digit|NumType=Card	1	flat:foreign	_	_
+3	10	10	NUM	_	NumForm=Digit|NumType=Card	4	nummod:gov	_	_
 4	соколовь	соколовь	X	_	Foreign=Yes	1	flat:foreign	_	_
 5	на	на	X	_	Foreign=Yes	1	flat:foreign	_	_
 6	стадо	стадо	X	_	Foreign=Yes	1	flat:foreign	_	_
@@ -90329,7 +90329,7 @@
 16	был	быть	AUX	_	Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	17	cop	_	feat="Transit=Intr"|_
 17	другим	другой	DET	_	Case=Ins|Gender=Masc|Number=Sing|PronType=Tot	7	conj	_	_
 18	и	и	CCONJ	_	_	21	cc	_	_
-19	мало	мало	NUM	_	Case=Nom|NumForm=Word|NumType=Card	20	obl:pronmod	_	_
+19	мало	мало	NUM	_	Case=Nom|NumForm=Word|NumType=Card	20	nmod:pronmod	_	_
 20	чем	что	PRON	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing|PronType=Rel	21	iobj	_	_
 21	напоминал	напоминать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	7	conj	_	feat="Transit=Tran"|_
 22	прежний	прежний	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	21	obj	_	SpaceAfter=No
@@ -96813,7 +96813,7 @@
 17	здания	здание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	16	nmod	_	SpaceAfter=No
 18	,	,	PUNCT	_	_	19	punct	_	_
 19	заложенного	заложить	VERB	_	Aspect=Perf|Case=Gen|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	17	acl	_	feat="Transit=Tran"|_
-20	неизвестно	неизвестный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	21	obl:pronmod	_	pos="PRED"|_
+20	неизвестно	неизвестный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	21	nmod:pronmod	_	pos="PRED"|_
 21	кем	кто	PRON	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing|PronType=Rel	19	obl:agent	_	_
 22	--	--	PUNCT	_	_	23	punct	_	_
 23	людьми	человек	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	21	appos	_	_
@@ -108217,7 +108217,7 @@
 3	бумагу	бумага	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	4	obl	_	_
 4	шло	идти	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	feat="Transit=Intr"|_
 5	что	что	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Rel	4	nsubj	_	_
-6	угодно	угодный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	5	obl:pronmod	_	pos="PRED"|_
+6	угодно	угодный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	5	nmod:pronmod	_	pos="PRED"|_
 7	--	--	PUNCT	_	_	10	punct	_	_
 8	и	и	CCONJ	_	_	10	cc	_	_
 9	ношеный	ношеный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
@@ -113860,7 +113860,7 @@
 # sent_id = uch-nauch--narovchatov--narovchatov-5154
 # genre = nonfiction-academic-encycl
 # text = Редко кто вспоминал, что Пруссия своим названием обязана пруссам -- народу, безжалостно истребленному немецкими рыцарями.
-1	Редко	редко	ADV	_	Degree=Pos|ExtPos=ADV	2	obl:pronmod	_	_
+1	Редко	редко	ADV	_	Degree=Pos|ExtPos=ADV	2	nmod:pronmod	_	_
 2	кто	кто	PRON	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	3	nsubj	_	_
 3	вспоминал	вспоминать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	feat="Transit=Intr,Tran"|SpaceAfter=No
 4	,	,	PUNCT	_	_	9	punct	_	_
@@ -164168,7 +164168,7 @@
 11	означать	означать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	10	xcomp	_	feat="Transit=Tran"|SpaceAfter=No
 12	:	:	PUNCT	_	_	13	punct	_	_
 13	выдумывать	выдумывать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	11	parataxis	_	feat="Transit=Tran"|_
-14	невесть	невесть	VERB	_	Polarity=Neg	15	obl:pronmod	_	pos="PRED"
+14	невесть	невесть	VERB	_	Polarity=Neg	15	nmod:pronmod	_	pos="PRED"
 15	что	что	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing|PronType=Rel	13	obj	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	17	punct	_	_
 17	сказывать	сказывать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	13	conj	_	feat="Transit=Tran"|_
@@ -164304,7 +164304,7 @@
 13	не	не	PART	_	Polarity=Neg	14	advmod	_	_
 14	прочь	прочь	ADV	_	Degree=Pos	9	acl:relcl	_	_
 15	напридумать	напридумать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	14	xcomp	_	feat="Transit=Tran"|_
-16	невесть	невесть	VERB	_	Polarity=Neg	17	obl:pronmod	_	pos="PRED"
+16	невесть	невесть	VERB	_	Polarity=Neg	17	nmod:pronmod	_	pos="PRED"
 17	что	что	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing|PronType=Rel	15	obj	_	SpaceAfter=No
 18	.	.	PUNCT	_	_	5	punct	_	sent_after='</p>\n<p>'
 
@@ -166344,7 +166344,7 @@
 # text = Триста с лишним лет назад представители французского дворянства, горожан и духовенства потребовали, чтобы их король Людовик XIV изменил свою политику.
 1	Триста	триста	NUM	_	Case=Acc|NumForm=Word|NumType=Card	4	nummod:gov	_	_
 2	с	с	ADP	_	_	3	case	_	_
-3	лишним	лишний	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	1	obl	_	_
+3	лишним	лишний	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	1	nmod	_	_
 4	лет	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	13	obl:tmod	_	_
 5	назад	назад	ADV	_	Degree=Pos	4	advmod	_	_
 6	представители	представитель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	13	nsubj	_	_
@@ -173781,7 +173781,7 @@
 5	«	«	PUNCT	_	_	6	punct	_	SpaceAfter=No
 6	Говорите	говорить	VERB	_	Aspect=Imp|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	2	parataxis	_	feat="Transit=Tran"|_
 7	что	что	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing|PronType=Rel	6	obj	_	_
-8	хотите	хотеть	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	7	obl:pronmod	_	feat="Transit=Tran"|SpaceAfter=No
+8	хотите	хотеть	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	7	nmod:pronmod	_	feat="Transit=Tran"|SpaceAfter=No
 9	,	,	PUNCT	_	_	11	punct	_	_
 10	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	_
 11	уверен	уверенный	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	6	conj	_	_
@@ -197922,7 +197922,7 @@
 3	поясняющей	пояснять	VERB	_	Aspect=Imp|Case=Gen|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	4	amod	_	feat="Transit=Tran"|_
 4	части	часть	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	obl	_	_
 5	они	они	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	8	nsubj	_	_
-6	мало	мало	NUM	_	Case=Nom|NumForm=Word|NumType=Card	7	obl:pronmod	_	_
+6	мало	мало	NUM	_	Case=Nom|NumForm=Word|NumType=Card	7	nmod:pronmod	_	_
 7	что	что	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing|PronType=Rel	8	obj	_	_
 8	говорят	говорить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	feat="Transit=Tran"|SpaceAfter=No
 9	.	.	PUNCT	_	_	8	punct	_	_
@@ -198635,7 +198635,7 @@
 10	и	и	CCONJ	_	_	11	cc	_	_
 11	проживёт	прожить	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	6	conj	_	feat="Transit=Tran"|_
 12	ещё	еще	ADV	_	Degree=Pos	14	advmod	_	_
-13	неведомо	неведомый	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	14	obl:pronmod	_	pos="PRED"|_
+13	неведомо	неведомый	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	14	nmod:pronmod	_	pos="PRED"|_
 14	сколько	сколько	NUM	_	Case=Acc|NumForm=Word|NumType=Card	15	nummod:gov	_	_
 15	времени	время	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	11	obj	_	SpaceAfter=No
 16	.	.	PUNCT	_	_	6	punct	_	_
@@ -203663,7 +203663,7 @@
 15	до	до	ADP	_	_	16	case	_	_
 16	бесконечности	бесконечность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	obl	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	20	punct	_	_
-18	невесть	невесть	VERB	_	Polarity=Neg	19	obl:pronmod	_	pos="PRED"
+18	невесть	невесть	VERB	_	Polarity=Neg	19	nmod:pronmod	_	pos="PRED"
 19	сколько	сколько	NUM	_	Case=Acc|NumForm=Word|NumType=Card	20	nummod:gov	_	_
 20	времени	время	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	16	conj	_	SpaceAfter=No
 21	.	.	PUNCT	_	_	11	punct	_	sent_after='</p>\n<p>'
@@ -206328,7 +206328,7 @@
 3	,	,	PUNCT	_	_	7	punct	_	_
 4	триста	триста	NUM	_	Case=Nom|NumForm=Word|NumType=Card	7	nummod:gov	_	_
 5	с	с	ADP	_	_	6	case	_	_
-6	лишним	лишний	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	4	obl	_	_
+6	лишним	лишний	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	4	nmod	_	_
 7	лет	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	2	conj	_	_
 8	назад	назад	ADV	_	Degree=Pos	7	advmod	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	2	punct	_	_
@@ -215197,7 +215197,7 @@
 16	писал	писать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	5	conj	_	feat="Transit=Intr"|_
 17	сто	сто	NUM	_	Case=Acc|NumForm=Word|NumType=Card	20	nummod:gov	_	_
 18	с	с	ADP	_	_	19	case	_	_
-19	лишним	лишний	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	17	obl	_	_
+19	лишним	лишний	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	17	nmod	_	_
 20	лет	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	16	obl:tmod	_	_
 21	спустя	спустя	ADP	_	_	20	case	_	_
 22	греческий	греческий	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	23	amod	_	_
@@ -219574,7 +219574,7 @@
 9	сыплет	сыпать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj	_	feat="Transit=Tran"|_
 10	на	на	ADP	_	_	11	case	_	_
 11	кого	кто	PRON	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing|PronType=Rel	9	obl	_	_
-12	попало	попасть	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	11	obl:pronmod	_	feat="Transit=Intr"|_
+12	попало	попасть	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	11	nmod:pronmod	_	feat="Transit=Intr"|_
 13	из	из	ADP	_	_	14	case	_	_
 14	рога	рог	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	obl	_	_
 15	изобилия	изобилие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	14	nmod	_	_
@@ -219975,7 +219975,7 @@
 31	:	:	PUNCT	_	_	32	punct	_	_
 32	выдумывать	выдумывать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	30	parataxis	_	feat="Transit=Tran"|_
 33	Бог	бог	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	32	nsubj	_	_
-34	знает	знать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	35	obl:pronmod	_	feat="Transit=Tran"|_
+34	знает	знать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	35	nmod:pronmod	_	feat="Transit=Tran"|_
 35	что	что	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing|PronType=Rel	32	obj	_	SpaceAfter=No
 36	.	.	PUNCT	_	_	6	punct	_	_
 
@@ -240540,7 +240540,7 @@
 8	прошло	пройти	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	parataxis	_	feat="Transit=Intr"|_
 9	сто	сто	NUM	_	Case=Nom|NumForm=Word|NumType=Card	12	nummod:gov	_	_
 10	с	с	ADP	_	_	11	case	_	_
-11	лишним	лишний	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	9	obl	_	_
+11	лишним	лишний	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	9	nmod	_	_
 12	лет	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	nsubj	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	18	punct	_	_
 14	а	а	CCONJ	_	_	18	cc	_	_
@@ -241715,7 +241715,7 @@
 # sent_id = uch-nauch--vartanyan--vartanyan_puteshestvie_v_ist-3628
 # genre = nonfiction-academic-encycl
 # text = Мало кто знает, что выражение это связано с верой в домовых, в тех языческих божков (см. Вернуться к своим пенатам), которые, по мнению наших далёких предков, ведали всем домом и двором, были их тайными хозяевами.
-1	Мало	мало	NUM	_	Case=Nom|NumForm=Word|NumType=Card	2	obl:pronmod	_	_
+1	Мало	мало	NUM	_	Case=Nom|NumForm=Word|NumType=Card	2	nmod:pronmod	_	_
 2	кто	кто	PRON	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	3	nsubj	_	_
 3	знает	знать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	feat="Transit=Intr,Tran"|SpaceAfter=No
 4	,	,	PUNCT	_	_	8	punct	_	_
@@ -241814,7 +241814,7 @@
 # genre = nonfiction-academic-encycl
 # text = Сейчас мало кто верит в проделки домовых...
 1	Сейчас	сейчас	ADV	_	Degree=Pos|PronType=Dem	4	advmod	_	pos="ADVPRO"|_
-2	мало	мало	NUM	_	Case=Nom|NumForm=Word|NumType=Card	3	obl:pronmod	_	_
+2	мало	мало	NUM	_	Case=Nom|NumForm=Word|NumType=Card	3	nmod:pronmod	_	_
 3	кто	кто	PRON	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	4	nsubj	_	_
 4	верит	верить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	feat="Transit=Intr"|_
 5	в	в	ADP	_	_	6	case	_	_
@@ -242274,7 +242274,7 @@
 # sent_id = uch-nauch--vartanyan--vartanyan_puteshestvie_v_ist-3658
 # genre = nonfiction-academic-encycl
 # text = Мало кто из современных читателей видел или знает, как шерстобиты выделывают валяную обувь.
-1	Мало	мало	NUM	_	Case=Nom|NumForm=Word|NumType=Card	2	obl:pronmod	_	_
+1	Мало	мало	NUM	_	Case=Nom|NumForm=Word|NumType=Card	2	nmod:pronmod	_	_
 2	кто	кто	PRON	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	6	nsubj	_	_
 3	из	из	ADP	_	_	5	case	_	_
 4	современных	современный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	5	amod	_	_
@@ -261546,7 +261546,7 @@
 22	несбыточному	несбыточный	ADJ	_	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	21	amod	_	SpaceAfter=No
 23	,	,	PUNCT	_	_	27	punct	_	_
 24	что	что	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Rel	27	nsubj	_	_
-25	неизвестно	неизвестный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	26	obl:pronmod	_	_
+25	неизвестно	неизвестный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	26	nmod:pronmod	_	_
 26	когда	когда	ADV	_	Degree=Pos|PronType=Rel	27	advmod	_	pos="ADVPRO"|_
 27	исполнится	исполниться	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	21	acl:relcl	_	feat="Transit=Intr"|_
 28	(	(	PUNCT	_	_	29	punct	_	SpaceAfter=No
@@ -262901,7 +262901,7 @@
 13	написание	написание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	18	nsubj	_	_
 14	через	через	ADP	_	_	16	case	_	_
 15	«	«	PUNCT	_	_	16	punct	_	SpaceAfter=No
-16	и	и	NOUN	_	InflClass=Ind	13	obl	_	SpaceAfter=No
+16	и	и	NOUN	_	InflClass=Ind	13	nmod	_	SpaceAfter=No
 17	»	»	PUNCT	_	_	16	punct	_	_
 18	соответствует	соответствовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	parataxis	_	feat="Transit=Intr"|_
 19	авторскому	авторский	ADJ	_	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	18	iobj	_	SpaceAfter=No
@@ -267094,7 +267094,7 @@
 8	участия	участие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	nmod	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	13	punct	_	_
 10	которые	который	DET	_	Case=Nom|Number=Plur|PronType=Rel	13	nsubj	_	_
-11	мало	мало	NUM	_	Case=Nom|NumForm=Word|NumType=Card	12	obl:pronmod	_	_
+11	мало	мало	NUM	_	Case=Nom|NumForm=Word|NumType=Card	12	nmod:pronmod	_	_
 12	чем	что	PRON	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing|PronType=Rel	14	iobj	_	_
 13	могли	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	7	acl:relcl	_	feat="Transit=Intr"|_
 14	помочь	помочь	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	13	xcomp	_	feat="Transit=Intr"|_
@@ -268192,7 +268192,7 @@
 1	Спустя	спустя	ADP	_	_	5	case	_	_
 2	четыре	четыре	NUM	_	Animacy=Inan|Case=Acc|NumForm=Word|NumType=Card	5	nummod:gov	_	_
 3	с	с	ADP	_	_	4	case	_	_
-4	лишним	лишний	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	2	obl	_	_
+4	лишним	лишний	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	2	nmod	_	_
 5	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	obl:tmod	_	_
 6	Селькирка	Селькирк	PROPN	_	Animacy=Anim|Case=Acc|Gender=Masc|NameType=Sur|Number=Sing	7	obj	_	_
 7	вызволил	вызволить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	feat="Transit=Tran"|_
@@ -292610,7 +292610,7 @@
 1	Спустя	спустя	ADP	_	_	5	case	_	_
 2	два	два	NUM	_	Case=Acc|Gender=Neut|NumForm=Word|NumType=Card	5	nummod:gov	_	_
 3	с	с	ADP	_	_	4	case	_	_
-4	лишним	лишний	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	2	obl	_	_
+4	лишним	лишний	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	2	nmod	_	_
 5	столетия	столетие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	25	obl:tmod	_	_
 6	другой	другой	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Tot	8	det	_	_
 7	политический	политический	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
@@ -306728,7 +306728,7 @@
 4	сравнения	сравнение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	1	obl	_	_
 5	«	«	PUNCT	_	_	7	punct	_	SpaceAfter=No
 6	…	…	PUNCT	_	_	7	punct	_	SpaceAfter=No
-7	сколько	сколько	NUM	_	Case=Nom|NumForm=Word|NumType=Card	4	appos	_	_
+7	сколько	сколько	NUM	_	Case=Nom|NumForm=Word|NumType=Card	4	parataxis	_	_
 8	звезд	звезда	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	7	nsubj	_	_
 9	на	на	ADP	_	_	10	case	_	_
 10	небе	небо	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	7	obl	_	SpaceAfter=No
@@ -312841,7 +312841,7 @@
 17	к	к	ADP	_	_	18	case	_	_
 18	нам	мы	PRON	_	Case=Dat|Number=Plur|Person=1|PronType=Prs	15	obl	_	_
 19	с	с	ADP	_	_	28	case	_	_
-20	невесть	невесть	VERB	_	Polarity=Neg	21	obl:pronmod	_	pos="PRED"
+20	невесть	невесть	VERB	_	Polarity=Neg	21	nmod:pronmod	_	pos="PRED"
 21	откуда	откуда	ADV	_	Degree=Pos|PronType=Rel	22	advmod	_	pos="ADVPRO"|_
 22	взявшимся	взяться	VERB	_	Aspect=Perf|Case=Ins|Gender=Masc|Number=Sing|Reflex=Yes|Tense=Past|VerbForm=Part|Voice=Act	28	acl	_	feat="Transit=Intr"|_
 23	в	в	ADP	_	_	24	case	_	_
@@ -315933,8 +315933,8 @@
 8	писать	писать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	7	xcomp	_	feat="Transit=Tran"|_
 9	сокращенно	сокращенно	ADV	_	Degree=Pos	8	advmod	_	_
 10	--	--	PUNCT	_	_	11	punct	_	_
-11	s.	s	X	_	Abbr=Yes|Foreign=Yes	8	parataxis	_	_
-12	nob.	nob	X	_	Abbr=Yes|Foreign=Yes	11	flat:foreign	_	_
+11	s.	s	X	_	Foreign=Yes	8	parataxis	_	_
+12	nob.	nob	X	_	Foreign=Yes	11	flat:foreign	_	_
 13	и	и	CCONJ	_	_	15	cc	_	_
 14	отсюда	отсюда	ADV	_	Degree=Pos|PronType=Dem	15	advmod	_	pos="ADVPRO"|_
 15	пошло	пойти	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	7	conj	_	feat="Transit=Intr"|_
@@ -321776,7 +321776,7 @@
 # text = Сейчас уже редко кто упоминает Гога и Магога, но у писателей XIX века вы можете набрести на эти имена как на обозначение чего-то таинственного и жуткого, какого-то ужаса, о котором нельзя даже ничего определенного сказать.
 1	Сейчас	сейчас	ADV	_	Degree=Pos|PronType=Dem	5	advmod	_	pos="ADVPRO"|_
 2	уже	уже	ADV	_	Degree=Pos	3	advmod	_	_
-3	редко	редко	ADV	_	Degree=Pos|ExtPos=ADV	4	obl:pronmod	_	_
+3	редко	редко	ADV	_	Degree=Pos|ExtPos=ADV	4	nmod:pronmod	_	_
 4	кто	кто	PRON	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	5	nsubj	_	_
 5	упоминает	упоминать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	feat="Transit=Tran"|_
 6	Гога	Гог	PROPN	_	Animacy=Anim|Case=Acc|Gender=Masc|NameType=Giv|Number=Sing	5	obj	_	_
@@ -329034,8 +329034,8 @@
 9	бы	бы	AUX	_	Mood=Cnd	7	aux	_	_
 10	иметь	иметь	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	7	xcomp	_	feat="Transit=Tran"|_
 11	форму	форма	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	10	obj	_	_
-12	A.	A	X	_	Abbr=Yes|Foreign=Yes	11	appos	_	_
-13	C.	C	X	_	Abbr=Yes|Foreign=Yes	12	flat:foreign	_	_
+12	A.	A	X	_	Foreign=Yes	11	appos	_	_
+13	C.	C	X	_	Foreign=Yes	12	flat:foreign	_	_
 14	(	(	PUNCT	_	_	15	punct	_	SpaceAfter=No
 15	all	all	X	_	Foreign=Yes	12	parataxis	_	_
 16	correct	correct	X	_	Foreign=Yes	15	flat:foreign	_	SpaceAfter=No
@@ -329066,8 +329066,8 @@
 19	произношению	произношение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	18	iobj	_	_
 20	слов	слово	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	19	nmod	_	SpaceAfter=No
 21	:	:	PUNCT	_	_	22	punct	_	_
-22	O.	O	X	_	Abbr=Yes|Foreign=Yes	20	appos	_	_
-23	K.	K	X	_	Abbr=Yes|Foreign=Yes	22	flat:foreign	_	_
+22	O.	O	X	_	Foreign=Yes	20	appos	_	_
+23	K.	K	X	_	Foreign=Yes	22	flat:foreign	_	_
 
 # sent_id = uch-nauch--vartanyan--vartanyan_puteshestvie_v_slovo-1167a
 # genre = nonfiction-academic-encycl
@@ -339033,8 +339033,8 @@
 1	Принятое	принять	VERB	_	Aspect=Perf|Case=Nom|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	2	amod	_	feat="Transit=Tran"|_
 2	сокращение	сокращение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
 3	--	--	PUNCT	_	_	4	punct	_	_
-4	P.	P	X	_	Abbr=Yes|Foreign=Yes	0	root	_	_
-5	S.	S	X	_	Abbr=Yes|Foreign=Yes	4	flat:foreign	_	_
+4	P.	P	X	_	Foreign=Yes	0	root	_	_
+5	S.	S	X	_	Foreign=Yes	4	flat:foreign	_	_
 
 # sent_id = uch-nauch--vartanyan--vartanyan_puteshestvie_v_slovo-1685
 # genre = nonfiction-academic-encycl
@@ -339068,9 +339068,9 @@
 9	post	post	X	_	Foreign=Yes	8	flat:foreign	_	_
 10	scriptum	scriptum	X	_	Foreign=Yes	8	flat:foreign	_	_
 11	(	(	PUNCT	_	_	12	punct	_	SpaceAfter=No
-12	P.	P	X	_	Abbr=Yes|Foreign=Yes	8	parataxis	_	_
-13	P.	P	X	_	Abbr=Yes|Foreign=Yes	12	flat:foreign	_	_
-14	S.	S	X	_	Abbr=Yes|Foreign=Yes	12	flat:foreign	_	SpaceAfter=No
+12	P.	P	X	_	Foreign=Yes	8	parataxis	_	_
+13	P.	P	X	_	Foreign=Yes	12	flat:foreign	_	_
+14	S.	S	X	_	Foreign=Yes	12	flat:foreign	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	18	punct	_	_
 16	третья	третий	ADJ	_	Case=Nom|Gender=Fem|Number=Sing|NumForm=Word|NumType=Ord	18	nsubj	_	pos="ANUM"|_
 17	--	--	PUNCT	_	_	18	punct	_	_
@@ -339079,10 +339079,10 @@
 20	post	post	X	_	Foreign=Yes	18	flat:foreign	_	_
 21	scriptum	scriptum	X	_	Foreign=Yes	18	flat:foreign	_	_
 22	(	(	PUNCT	_	_	23	punct	_	SpaceAfter=No
-23	P.	P	X	_	Abbr=Yes|Foreign=Yes	18	parataxis	_	_
-24	P.	P	X	_	Abbr=Yes|Foreign=Yes	23	flat:foreign	_	_
-25	P.	P	X	_	Abbr=Yes|Foreign=Yes	23	flat:foreign	_	_
-26	S	S	X	_	Abbr=Yes|Foreign=Yes	23	flat:foreign	_	SpaceAfter=No
+23	P.	P	X	_	Foreign=Yes	18	parataxis	_	_
+24	P.	P	X	_	Foreign=Yes	23	flat:foreign	_	_
+25	P.	P	X	_	Foreign=Yes	23	flat:foreign	_	_
+26	S	S	X	_	Foreign=Yes	23	flat:foreign	_	SpaceAfter=No
 27	)	)	PUNCT	_	_	23	punct	_	SpaceAfter=No
 28	.	.	PUNCT	_	_	4	punct	_	sent_after='</p>\n<p>'
 
@@ -339275,9 +339275,9 @@
 3	сокращенно	сокращенно	ADV	_	Degree=Pos	4	advmod	_	_
 4	обозначается	обозначаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	feat="Transit=Intr"|SpaceAfter=No
 5	:	:	PUNCT	_	_	6	punct	_	_
-6	q.	q	X	_	Abbr=Yes|Foreign=Yes	4	parataxis	_	SpaceAfter=No
-7	e.	e	X	_	Abbr=Yes|Foreign=Yes	6	flat:foreign	_	SpaceAfter=No
-8	d.	d	X	_	Abbr=Yes|Foreign=Yes	6	flat:foreign	_	sent_after='</p>\n<p>'
+6	q.	q	X	_	Foreign=Yes	4	parataxis	_	SpaceAfter=No
+7	e.	e	X	_	Foreign=Yes	6	flat:foreign	_	SpaceAfter=No
+8	d.	d	X	_	Foreign=Yes	6	flat:foreign	_	sent_after='</p>\n<p>'
 
 # sent_id = uch-nauch--vartanyan--vartanyan_puteshestvie_v_slovo-1701
 # genre = nonfiction-academic-encycl
@@ -346328,9 +346328,9 @@
 # sent_id = uch-nauch--vartanyan--vartanyan_puteshestvie_v_slovo-2225
 # genre = nonfiction-academic-encycl
 # text = Мало ли какие искажения претерпевают иноязычные слова в других языках…»
-1	Мало	малый	ADJ	_	Degree=Pos|ExtPos=ADJ|Gender=Neut|Number=Sing|Variant=Short	3	obl:pronmod	_	pos="PRED"|_
+1	Мало	малый	ADJ	_	Degree=Pos|ExtPos=ADJ|Gender=Neut|Number=Sing|Variant=Short	3	nmod:pronmod	_	pos="PRED"|_
 2	ли	ли	PART	_	_	1	fixed	_	_
-3	какие	какой	DET	_	Animacy=Inan|Case=Acc|Number=Plur|PronType=Rel	4	det	_	_
+3	какие	какой	DET	_	Animacy=Inan|Case=Acc|Number=Plur|PronType=Rel	4	acl	_	_
 4	искажения	искажение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	5	obj	_	_
 5	претерпевают	претерпевать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	feat="Transit=Tran"|_
 6	иноязычные	иноязычный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	7	amod	_	_
@@ -359159,7 +359159,7 @@
 8	участия	участие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	nmod	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	13	punct	_	_
 10	которые	который	DET	_	Case=Nom|Number=Plur|PronType=Rel	13	nsubj	_	_
-11	мало	мало	NUM	_	Case=Nom|NumForm=Word|NumType=Card	12	obl:pronmod	_	_
+11	мало	мало	NUM	_	Case=Nom|NumForm=Word|NumType=Card	12	nmod:pronmod	_	_
 12	чем	что	PRON	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing|PronType=Rel	14	iobj	_	_
 13	могли	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	7	acl:relcl	_	feat="Transit=Intr"|_
 14	помочь	помочь	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	13	xcomp	_	feat="Transit=Intr"|_
@@ -364217,7 +364217,7 @@
 12	:	:	PUNCT	_	_	14	punct	_	_
 13	«	«	PUNCT	_	_	14	punct	_	SpaceAfter=No
 14	выдумывать	выдумывать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	11	parataxis	_	feat="Transit=Tran"|_
-15	невесть	невесть	VERB	_	Polarity=Neg	16	obl:pronmod	_	pos="PRED"
+15	невесть	невесть	VERB	_	Polarity=Neg	16	nmod:pronmod	_	pos="PRED"
 16	что	что	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing|PronType=Rel	14	obj	_	SpaceAfter=No
 17	»	»	PUNCT	_	_	14	punct	_	SpaceAfter=No
 18	,	,	PUNCT	_	_	20	punct	_	_
@@ -369516,7 +369516,7 @@
 22	,	,	PUNCT	_	_	19	punct	_	after='<br/>\n'
 23	Жалили	жалить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	5	conj	_	feat="Transit=Tran"|_
 24	куда	куда	ADV	_	Degree=Pos|ExtPos=ADV|PronType=Rel	23	advmod	_	pos="ADVPRO"|_
-25	попало	попасть	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	24	obl:pronmod	_	feat="Transit=Intr"|SpaceAfter=No
+25	попало	попасть	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	24	nmod:pronmod	_	feat="Transit=Intr"|SpaceAfter=No
 26	,	,	PUNCT	_	_	31	punct	_	after='<br/>\n'
 27	Им	они	PRON	_	Case=Dat|Number=Plur|Person=3|PronType=Prs	31	iobj	_	_
 28	за	за	ADP	_	_	29	case	_	_
@@ -374396,7 +374396,7 @@
 19	тем	тем	SCONJ	_	_	23	mark	_	_
 20	меньше	мало	NUM	_	Degree=Cmp|NumForm=Word|NumType=Card	24	nummod:gov	_	_
 21	для	для	ADP	_	_	22	case	_	_
-22	нас	мы	PRON	_	Case=Gen|Number=Plur|Person=1|PronType=Prs	20	obl	_	_
+22	нас	мы	PRON	_	Case=Gen|Number=Plur|Person=1|PronType=Prs	23	obl	_	_
 23	останется	остаться	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	9	parataxis	_	feat="Transit=Intr"|_
 24	синонимов	синоним	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	23	nsubj	_	SpaceAfter=No
 25	»	»	PUNCT	_	_	23	punct	_	SpaceAfter=No
@@ -383449,8 +383449,8 @@
 1	Если	если	SCONJ	_	_	7	mark	_	_
 2	в	в	ADP	_	_	4	case	_	_
 3	английском	английский	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
-4	варианте	вариант	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	7	obl:pronmod	_	_
-5	мало	мало	NUM	_	Case=Nom|NumForm=Word|NumType=Card	6	obl	_	_
+4	варианте	вариант	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	7	nmod:pronmod	_	_
+5	мало	мало	NUM	_	Case=Nom|NumForm=Word|NumType=Card	6	nmod:pronmod	_	_
 6	что	что	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Rel	7	nsubj	_	_
 7	изменилось	измениться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	16	advcl	_	feat="Transit=Intr"|SpaceAfter=No
 8	,	,	PUNCT	_	_	7	punct	_	_

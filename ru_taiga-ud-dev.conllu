@@ -18715,7 +18715,7 @@
 4	орфографии	орфография	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
 5	исходили	исходить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	feat="Transit=Intr"|_
 6	в	в	ADP	_	_	7	case	_	_
-7	основном	основной	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	10	obl	_	_
+7	основном	основной	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	10	nmod	_	_
 8	из	из	ADP	_	_	10	case	_	_
 9	произносительных	произносительный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	10	amod	_	_
 10	норм	норма	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	5	obl	_	_
