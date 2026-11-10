@@ -4261,7 +4261,7 @@
 19	Шингаркин	Шингаркин	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|NameType=Sur|Number=Sing	18	flat:name	_	_
 20	написал	написать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	12	parataxis	_	_
 21	заявление	заявление	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	20	obj	_	_
-22	в	в	ADP	_	_	21	obl	_	SpaceAfter=No
+22	в	в	ADP	_	_	21	nmod	_	SpaceAfter=No
 23	...	...	PUNCT	_	_	22	punct	_	_
 
 # newpar
@@ -13227,7 +13227,7 @@
 15	поклон	поклон	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	16	nsubj	_	_
 16	ей	она	PRON	_	Case=Dat|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	parataxis	_	_
 17	за	за	ADP	_	_	18	case	_	_
-18	это	это	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	15	obl	_	SpaceAfter=No
+18	это	это	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	15	nmod	_	SpaceAfter=No
 19	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = 7197
